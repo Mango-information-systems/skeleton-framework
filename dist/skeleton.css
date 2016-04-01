@@ -1,4 +1,4 @@
-/*! Skeleton Framework | 1.0.8 | MIT | Feb 22nd, 2016 */
+/*! Skeleton Framework | 1.0.8 | MIT | Apr 1st, 2016 */
 
 /* Table of contents
 - Grid
@@ -22,6 +22,7 @@
 html {
   font-size: 1em;
   box-sizing: border-box;
+  height: 100%;
 }
 
 *,
@@ -31,6 +32,7 @@ html {
 }
 
 body {
+  height: 100%;
   font-size: 1rem;
   line-height: 1.6rem;
   font-weight: 400;
