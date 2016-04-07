@@ -1,8 +1,7 @@
-/*! Skeleton Framework | 1.0.8 | MIT | Apr 7th, 2016 */
-
+/*! skeleton-framework | 2.0.0 | MIT | 4/7/2016 */
 /* Table of contents
-- Grid
 - Base Styles
+- Grid
 - Typography
 - Links
 - Buttons
@@ -15,9 +14,6 @@
 - Clearing
 - Media Queries
 */
-
-
-/* Base Styles */
 
 html {
   font-size: 1em;
@@ -38,9 +34,8 @@ body {
   font-weight: 400;
   font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
+  background-color: #fff;
 }
-
-/* Grid */
 
 .container {
   margin: 0 auto;
@@ -457,8 +452,6 @@ body {
   }
 }
 
-/* Typography and Links */
-
 /* Base Typo
  ------------------------------------------------- */
 
@@ -510,7 +503,6 @@ h6 {
   letter-spacing: 0;
 }
 
-
 /* Larger than phablet */
 
 @media (min-width: 560px) {
@@ -538,7 +530,6 @@ p {
   margin-top: 0;
 }
 
-
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -549,8 +540,6 @@ a {
 a:hover {
   color: #e85d00;
 }
-
-/* Buttons */
 
 .button,
 button,
@@ -589,12 +578,6 @@ input[type="button"]:focus {
   outline: 0;
 }
 
-.button:disabled {
-  border: 1px solid #E3E3E3;
-  color: #888;
-  cursor: not-allowed;
-}
-
 .button:active,
 button:active,
 input[type="submit"]:active,
@@ -604,14 +587,20 @@ input[type="button"]:active {
   border-color: #222;
 }
 
+.button:disabled {
+  border: 1px solid #E3E3E3;
+  color: #888;
+  cursor: not-allowed;
+}
+
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
+  border: 1px solid #ff6600;
   color: #FFF;
   background-color: #ff6600;
-  border-color: #ff6600;
 }
 
 .button.button-primary:hover,
@@ -629,17 +618,6 @@ input[type="button"].button-primary:focus {
   border-color: #ff6600;
 }
 
-.button.button-primary:disabled,
-button.button-primary:disabled,
-input[type="submit"].button-primary:disabled,
-input[type="reset"].button-primary:disabled,
-input[type="button"].button-primary:disabled {
-  color: #FFF;
-  cursor: not-allowed;
-  background-color: #ff7a00;
-  border-color: #ff7a00;
-}
-
 .button.button-primary:active,
 button.button-primary:active,
 input[type="submit"].button-primary:active,
@@ -650,7 +628,16 @@ input[type="button"].button-primary:active {
   border-color: #e85d00;
 }
 
-/* Forms */
+.button.button-primary:disabled,
+button.button-primary:disabled,
+input[type="submit"].button-primary:disabled,
+input[type="reset"].button-primary:disabled,
+input[type="button"].button-primary:disabled {
+  color: #FFF;
+  cursor: not-allowed;
+  background-color: #ff7a00;
+  border-color: #ff7a00;
+}
 
 input[type="email"],
 input[type="number"],
@@ -663,7 +650,6 @@ input[type="password"],
 textarea,
 select {
   padding: 0.4rem 0.6rem;
-  /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #FFF;
   border: 1px solid #D1D1D1;
   border-radius: 4px;
@@ -681,7 +667,6 @@ select:not([size]),
 textarea:not([rows]) {
   height: 2.5rem;
 }
-
 
 /* Removes awkward default styles on some inputs for iOS */
 
@@ -744,8 +729,6 @@ label > .label-body {
   font-weight: normal;
 }
 
-/* Lists */
-
 ul {
   list-style: circle inside;
 }
@@ -772,8 +755,6 @@ li {
   margin-bottom: 1rem;
 }
 
-/* Code */
-
 code {
   padding: 0.2rem 0.5rem;
   margin: 0 0.2rem;
@@ -790,8 +771,6 @@ pre > code {
   white-space: pre;
   overflow: auto;
 }
-
-/* Tables */
 
 table {
   overflow-x: auto;
@@ -814,8 +793,6 @@ th:last-child,
 td:last-child {
   padding-right: 0;
 }
-
-/* Spacing */
 
 button,
 .button {
@@ -841,8 +818,6 @@ form {
   margin-bottom: 2.5rem;
 }
 
-/* Utilities */
-
 .u-full-width {
   width: 100%;
 }
@@ -850,7 +825,6 @@ form {
 .u-max-full-width {
   max-width: 100%;
 }
-
 
 /* Floats */
 
@@ -868,7 +842,6 @@ form {
   clear: both;
 }
 
-
 /* Positioning */
 
 .u-center-block {
@@ -876,7 +849,6 @@ form {
   margin-left: auto;
   margin-right: auto;
 }
-
 
 /**
  * Note:
@@ -896,7 +868,6 @@ form {
           transform: translateY(-50%) translateX(-50%);
 }
 
-
 /* Type */
 
 .u-text-center {
@@ -914,7 +885,6 @@ form {
   background-color: transparent;
   border: 0;
 }
-
 
 /* Peek a boo */
 
@@ -934,7 +904,6 @@ form {
   visibility: visible !important;
 }
 
-
 /* Misc */
 
 .u-img-responsive {
@@ -952,7 +921,6 @@ hr {
   border-top: 1px solid #E1E1E1;
 }
 
-
 /* Clearing */
 
 .container:after,
@@ -962,36 +930,31 @@ hr {
   clear: both;
 }
 
+/*****
+* Media Queries
+*
+* Note: The best way to structure the use of media queries is to create the
+* queries near the relevant code. For example, if you wanted to change the
+* styles for buttons on small devices, paste the mobile query code up in the
+* buttons section and style it there.
+*****/
 
-/* Media Queries */
+@media (min-width: 400px) {
+  /* Larger than mobile */
+}
 
+@media (min-width: 560px) {
+  /* Larger than phablet (also point when grid becomes active) */
+}
 
-/* Note: The best way to structure the use of media queries is to create the
-   queries near the relevant code. For example, if you wanted to change the
-   styles for buttons on small devices, paste the mobile query code up in the
-   buttons section and style it there. */
+@media (min-width: 720px) {
+  /* Larger than tablet */
+}
 
+@media (min-width: 960px) {
+  /* Larger than desktop */
+}
 
-/* Larger than mobile */
-
-@media (min-width: 400px) {}
-
-
-/* Larger than phablet (also point when grid becomes active) */
-
-@media (min-width: 560px) {}
-
-
-/* Larger than tablet */
-
-@media (min-width: 720px) {}
-
-
-/* Larger than desktop */
-
-@media (min-width: 960px) {}
-
-
-/* Larger than Desktop HD */
-
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  /* Larger than Desktop HD */
+}

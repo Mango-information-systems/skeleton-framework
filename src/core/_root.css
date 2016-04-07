@@ -1,0 +1,55 @@
+:root {
+
+  --total-columns: 12;
+  --column-width: calc(100% / var(--total-columns));
+  --max-width: 1200px;
+  --gutter: 1rem;
+
+  --font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --background-color: #fff;
+  --font-color: #222;
+
+  --link-color: #ff6600;
+  --link-color-hover: #e85d00;
+
+  --button-font-color: #555;
+  --button-font-color-enter: #333;
+  --button-font-color-active: #222;
+  --button-font-color-disabled: #888;
+
+  --button-background-color: transparent;
+
+  --button-border: 1px solid #BBB;
+  --button-border-color-enter: #888;
+  --button-border-color-active: #222;
+  --button-border-disabled: 1px solid #E3E3E3;
+
+  --primary-button-font-color: #FFF;
+  --primary-button-font-color-enter: #FFF;
+  --primary-button-font-color-active: #FFF;
+  --primary-button-font-color-disabled: #FFF;
+
+  --primary-button-background-color: #ff6600;
+  --primary-button-background-color-enter: #ff6600;
+  --primary-button-background-color-active: #e85d00;
+  --primary-button-background-color-disabled: #ff7a00;
+
+  --primary-button-border: 1px solid #ff6600;
+  --primary-button-border-color-enter: #ff6600;
+  --primary-button-border-color-active: #e85d00;
+  --primary-button-border-color-disabled: #ff7a00;
+
+  --form-background-color: #FFF;
+  --form-font-color: #222;
+  --form-border: 1px solid #D1D1D1;
+  --form-border-enter: 1px solid #ff6600;
+
+  --code-background: #F1F1F1;
+  --code-border: 1px solid #E1E1E1;
+
+  --td-border-bottom: 1px solid #E1E1E1;
+
+  --border-radius: 4px;
+  --hr: 1px solid #E1E1E1;
+}

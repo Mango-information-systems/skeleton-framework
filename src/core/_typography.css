@@ -82,9 +82,9 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 a {
-  color: #ff6600;
+  color: var(--link-color);
 }
 
 a:hover {
-  color: #e85d00;
+  color: var(--link-color-hover);
 }

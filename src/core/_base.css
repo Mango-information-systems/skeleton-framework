@@ -15,6 +15,7 @@ body {
   font-size: 1rem;
   line-height: 1.6rem;
   font-weight: 400;
-  font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222;
+  font-family: var(--font-family);
+  color: var(--font-color);
+  background-color: var(--background-color);
 }
