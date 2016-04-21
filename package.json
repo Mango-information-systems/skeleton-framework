@@ -14,7 +14,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run watch & npm run serve",
-    "build": "node index",
+    "build": "node index && npm run cp",
+    "cp": "cp dist/skeleton.min.css ../source/css/",
     "watch": "npm-scripts-watcher",
     "serve": "live-server --port=3000 --mount=/:/dist --open=/dist --watch=/dist"
   },
