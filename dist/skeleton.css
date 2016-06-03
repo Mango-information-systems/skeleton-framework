@@ -569,6 +569,10 @@ a:hover {
   color: #e74c3c
 }
 
+text, tspan {
+	font-size: .8rem;
+}
+
 .button,
 button,
 input[type="submit"],

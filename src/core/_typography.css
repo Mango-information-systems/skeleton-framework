@@ -114,3 +114,7 @@ a:hover {
 .text-danger {
   color: var(--text-color-danger)
 }
+
+text, tspan {
+	font-size: .8rem;
+}
