@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.0.10 | MIT | 0/22/2016 */
+/*! skeleton-framework | 1.0.10 | MIT | 5/3/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -560,14 +560,13 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  height: 2.5rem;
-  padding: 0 1.9rem;
+  height: 3.2rem;
+  padding: 0 2rem;
   color: #555;
   text-align: center;
-  font-size: 0.7rem;
-  font-weight: 600;
-  line-height: 2.5rem;
-  letter-spacing: 0.1rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 3.2rem;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
@@ -743,7 +742,7 @@ label > .label-body {
 }
 
 ul {
-  list-style: circle inside;
+  list-style: disc inside;
 }
 
 ol {
