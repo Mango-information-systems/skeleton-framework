@@ -10,6 +10,8 @@
 
   --background-color: #fff;
   --font-color: #222;
+  --opposite-background-color: #222;
+  --opposite-font-color: #ddd;
 
   --link-color: #F47216;
   --link-color-hover: #e85d00;
