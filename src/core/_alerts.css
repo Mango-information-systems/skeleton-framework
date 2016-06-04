@@ -24,3 +24,7 @@
   color: var(--alert-danger-font-color);
   background-color: var(--alert-danger-background-color);
 }
+
+.alert.alert-danger a {
+  color: var(--alert-danger-font-color);
+}
