@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 0/5/2016 */
+/*! skeleton-framework | 1.1.1 | MIT | 5/10/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -48,7 +48,6 @@ footer
   margin-left: -10000px;
   padding-right: 10000px;
   margin-right: -10000px;
-  border-top: 3px solid #ccc;
   color: #ddd;
   background-color: #222;
   background: url("/img/bg-pattern-dark-2x.jpg") repeat fixed;
