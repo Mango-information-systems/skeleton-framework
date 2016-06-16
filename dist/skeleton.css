@@ -971,8 +971,8 @@ a.card {
 a.card:hover,
 a.card:active {
   border-color: #8A8A8A;
-  -webkit-transform: translateX(2px) translateY(2px);
-          transform: translateX(2px) translateY(2px);
+  -webkit-transform: translateX(1px) translateY(1px);
+          transform: translateX(1px) translateY(1px);
 }
 
 code {
