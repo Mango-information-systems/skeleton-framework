@@ -49,9 +49,33 @@ tr th {
 .pricing-table .button,
 .pricing-table button  { margin-left: -0.3em; }
 
+
+@media (min-width: 400px) {
+  /* Larger than mobile */
+  .u-narrow {
+    width: 100%;
+  }
+}
+
 @media (min-width: 560px) {
+  /* Larger than phablet (also point when grid becomes active) */
+  .u-narrow {
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
   th:first-child,
   td:first-child {
     padding-left: 1rem;
+  }
+}
+
+@media (min-width: 720px) {
+  /* Larger than tablet */
+  .u-narrow {
+    width: 60%;
+    margin-left:auto;
+    margin-right:auto;
   }
 }
