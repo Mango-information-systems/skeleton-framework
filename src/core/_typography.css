@@ -61,7 +61,7 @@ h6 {
   letter-spacing: 0;
 }
 
-thead td {
+thead th {
   font-family: var(--titles-font-family);
   font-weight: 400;
 }
