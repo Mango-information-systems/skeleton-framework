@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 4/16/2016 */
+/*! skeleton-framework | 1.1.1 | MIT | 5/17/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -533,6 +533,11 @@ h6 {
   letter-spacing: 0;
 }
 
+thead td {
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
 /* Larger than phablet */
 
 @media (min-width: 560px) {
@@ -596,13 +601,13 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  height: 3.2rem;
+  height: 2.75rem;
   padding: 0 2rem;
   color: #555;
   text-align: center;
   font-size: 1.3rem;
   font-weight: 400;
-  line-height: 3.2rem;
+  line-height: 2.75rem;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
@@ -1070,6 +1075,16 @@ tr th {
     border-bottom: 1px solid #000;
 }
 
+.pricing-table {
+  background-color: #FFF;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14),
+  0 3px 1px -2px rgba(0, 0, 0, .2),
+  0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+
+.pricing-table .button,
+.pricing-table button  { margin-left: -0.3em; }
+
 @media (min-width: 560px) {
   th:first-child,
   td:first-child {
@@ -1079,7 +1094,7 @@ tr th {
 
 button,
 .button {
-  margin-bottom: 1rem;
+  margin-bottom: .3rem;
 }
 
 input,
@@ -1094,19 +1109,33 @@ blockquote,
 dl,
 figure,
 table,
-p,
 ul,
 ol,
 form {
   margin-bottom: 2.5rem;
 }
 
+p { margin-bottom: 1rem; }
+
 .alert {
   margin-bottom: 1rem;
 }
 
+#header {
+  margin-top: 1.5rem;
+  margin-bottom:1.5rem;
+}
+
 .u-full-width {
   width: 100%;
+}
+
+/* See _queries.css for smallscreen sizing */
+
+.u-narrow {
+  width: 40%;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .u-max-full-width {
@@ -1212,6 +1241,54 @@ hr {
   border-top: 1px solid #E1E1E1;
 }
 
+blockquote {
+  border-left: 6px solid #ddd;
+  padding-left: 2rem;
+}
+
+/* Footer links and navigation */
+
+footer a, footer fa {
+  color: #F9A70D;
+  text-decoration: none;
+ }
+
+footer a.active {
+  font-weight: bold;
+}
+
+.footer-navigation {
+  list-style: none;
+  margin-top:0.5rem;
+  line-height: 0.5;
+  color: #F9A70D;
+}
+
+/* References and people */
+
+.reference { padding-left:5rem;}
+
+.reference blockquote {
+  margin-top:0.5rem;
+  margin-bottom:0;
+  max-width: 40rem;
+  border:none;
+}
+
+.person { margin-top: 2rem; margin-bottom:2rem; }
+
+.client-logo { margin-bottom: 4rem;}
+
+img.u-pull-left {
+  margin:0 1rem 0.5rem 0;
+  padding:0;
+  border:1px solid #aaa;
+  background-origin: content-box;
+  /*border-radius: 0.2rem;*/
+  box-shadow: 0 4px 2px rgba(0, 0, 0, 0.3);
+
+}
+
 /* Clearing */
 
 .container:after,
@@ -1232,14 +1309,27 @@ hr {
 
 @media (min-width: 400px) {
   /* Larger than mobile */
+  .u-narrow {
+    width: 100%;
+  }
 }
 
 @media (min-width: 560px) {
   /* Larger than phablet (also point when grid becomes active) */
+  .u-narrow {
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+  }
 }
 
 @media (min-width: 720px) {
   /* Larger than tablet */
+  .u-narrow {
+    width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+  }
 }
 
 @media (min-width: 960px) {
