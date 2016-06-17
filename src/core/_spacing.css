@@ -15,13 +15,19 @@ blockquote,
 dl,
 figure,
 table,
-p,
 ul,
 ol,
 form {
   margin-bottom: 2.5rem;
 }
 
+p { margin-bottom: 1rem; }
+
 .alert {
   margin-bottom: 1rem;
+}
+
+#header {
+  margin-top: 1.5rem;
+  margin-bottom:1.5rem;
 }
