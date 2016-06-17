@@ -61,6 +61,10 @@ h6 {
   letter-spacing: 0;
 }
 
+thead td {
+  font-family: var(--titles-font-family);
+  font-weight: 400;
+}
 
 /* Larger than phablet */
 
