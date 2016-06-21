@@ -72,6 +72,11 @@ thead th {
   h1 {
     font-size: 3.6rem;
   }
+
+  h1.small {
+    font-size: 1.8rem;
+  }
+
   h2 {
     font-size: 3.0rem;
   }
