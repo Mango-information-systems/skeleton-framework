@@ -1,3 +1,31 @@
+/*
+No zero offset exists and if an offset is added on one size,
+but not required on another, the old offset remains
+*/
+
+.offset-by-zero[class*='column']
+  margin-left: 0;
+}
+
+.xs-offset-by-zero[class*='column']
+  margin-left: 0;
+}
+
+.sm-offset-by-zero[class*='column']
+  margin-left: 0;
+}
+
+.md-offset-by-zero[class*='column']
+  margin-left: 0;
+}
+
+.lg-offset-by-zero[class*='column']
+  margin-left: 0;
+}
+
+.u-img-responsive { max-width: 100%; }
+img { max-width: 100%; }
+
 .u-full-width {
   width: 100%;
 }
