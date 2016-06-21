@@ -35,8 +35,13 @@ footer a.active {
 .reference blockquote {
   margin-top:0.5rem;
   margin-bottom:0;
+  margin-left: 0;
+  padding-left: 0;
   border:none;
+
 }
+
+cite { color: #777; }
 
 .person { margin-top: 2rem; margin-bottom:2rem; }
 
@@ -51,8 +56,12 @@ img.u-pull-left {
 .profile-photo {
   border:1px solid #aaa;
   background-origin: content-box;
-  /*border-radius: 0.2rem;*/
   box-shadow: 0 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width:400px)
+{
+  .profile-photo {  min-width: 200px; }
 }
 
 /* Clearing */
