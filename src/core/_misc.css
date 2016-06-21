@@ -38,7 +38,30 @@ footer a.active {
   margin-left: 0;
   padding-left: 0;
   border:none;
+  font-size: 120%;
+}
 
+.reference blockquote:before {
+  content:"\f10d";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2em;
+  padding-right: 0.2em;
+
+}
+
+.reference blockquote:after {
+  content:"\f10e";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2em;
+  padding-left: 0.2em;
 }
 
 cite { color: #777; }
