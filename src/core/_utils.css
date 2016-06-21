@@ -23,8 +23,10 @@ but not required on another, the old offset remains
   margin-left: 0;
 }
 
-.u-img-responsive { max-width: 100%; }
-img { max-width: 100%; }
+.u-img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto; }
 
 .u-full-width {
   width: 100%;
