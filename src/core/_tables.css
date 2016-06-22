@@ -49,6 +49,12 @@ tr th {
 .pricing-table .button,
 .pricing-table button  { margin-left: -0.3em; }
 
+.empty-cell {
+  color: #bbb;
+  display: block;
+  font-size: 1.4rem;
+ }
+
 
 @media (min-width: 400px) {
   /* Larger than mobile */
