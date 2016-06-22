@@ -25,6 +25,7 @@ td {
   border-bottom: var(--td-border-bottom);
 }
 
+/*
 th:first-child,
 td:first-child {
   padding-left: 0;
@@ -33,7 +34,7 @@ td:first-child {
 th:last-child,
 td:last-child {
   padding-right: 0;
-}
+} */
 
 tr th {
     border-bottom: 1px solid #000;
