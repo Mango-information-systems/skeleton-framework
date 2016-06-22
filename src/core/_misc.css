@@ -53,6 +53,14 @@ footer a.active {
 
 }
 
+/*
+some people prefer to just use the
+:before quotation mark and make it very large.
+
+I prefer the simple quotes at either end
+
+The :after has been included for convenience and consistency
+*/
 .reference blockquote:after {
   content:"\f10e";
   font-family: FontAwesome;
