@@ -27,14 +27,6 @@ but not required on another, the old offset remains
   width: 100%;
 }
 
-/* See _queries.css for smallscreen sizing */
-
-.u-narrow {
-  width: 40%;
-  margin-left:auto;
-  margin-right:auto;
-}
-
 .u-max-full-width {
   max-width: 100%;
 }
