@@ -1329,7 +1329,7 @@ footer a, footer fa {
  }
 
 footer a.active {
-  font-weight: bold;
+  color: #e85d00;
 }
 
 .footer-navigation {
