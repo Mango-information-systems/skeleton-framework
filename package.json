@@ -16,8 +16,10 @@
   "scripts": {
     "start": "npm run watch & npm run serve",
     "build": "node index",
+    "postbuild": "npm run cp",
     "watch": "npm-scripts-watcher",
-    "serve": "live-server --port=3000 --mount=/:/dist --open=/dist --watch=/dist"
+    "serve": "live-server --port=3000 --mount=/:/dist --open=/dist --watch=/dist",
+    "cp": "cp dist/skeleton.min.css ../../public/css/"
   },
   "watch": {
     "src/**/*.css": [
