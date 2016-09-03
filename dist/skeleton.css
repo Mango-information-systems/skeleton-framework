@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 1/29/2016 */
+/*! skeleton-framework | 1.1.1 | MIT | 6/3/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1201,4 +1201,16 @@ hr {
 
 @media (min-width: 1200px) {
   /* Larger than Desktop HD */
+}
+
+text {
+	font-size: 1.2rem;
+}
+
+.axis path, .axis line {
+	stroke: #999999;
+}
+
+.axis text {
+	fill: #999999;
 }
