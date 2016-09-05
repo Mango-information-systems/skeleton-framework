@@ -11,3 +11,7 @@ text {
 .axis text {
 	fill: #999999;
 }
+
+.metric {
+	font-size: 3rem;
+}
