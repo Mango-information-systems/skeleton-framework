@@ -7,7 +7,7 @@
 
   --font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-  --background-color: #fff;
+  --background-color: #f6f6f6;
   --font-color: #222;
 
   --link-color: #008000;
@@ -110,4 +110,5 @@
   --card-border: #E1E1E1;
   --card-shadow: #E1E1E1;
   --card-anchor-color: #757575;
+  --card-background-color: #fff;
 }
