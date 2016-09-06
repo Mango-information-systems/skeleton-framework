@@ -13,7 +13,7 @@
   --link-color: #008000;
   --link-color-hover: #0FA0CE;
 
-  --text-color-primary: #1EAEDB;
+  --text-color-primary: #027002;
   --text-color-danger: #e74c3c;
   --text-color-success: #2ecc71;
 
@@ -34,15 +34,15 @@
   --primary-button-font-color-active: #FFF;
   --primary-button-font-color-disabled: #FFF;
 
-  --primary-button-background-color: #33C3F0;
-  --primary-button-background-color-enter: #1EAEDB;
-  --primary-button-background-color-active: #157b9b;
-  --primary-button-background-color-disabled: #7CD9F8;
+  --primary-button-background-color: #008000;
+  --primary-button-background-color-enter: #027002;
+  --primary-button-background-color-active: #054A05;
+  --primary-button-background-color-disabled: #5ACD5A;
 
-  --primary-button-border: 1px solid #33C3F0;
-  --primary-button-border-color-enter: #1EAEDB;
-  --primary-button-border-color-active: #157b9b;
-  --primary-button-border-color-disabled: #7CD9F8;
+  --primary-button-border: 1px solid #008000;
+  --primary-button-border-color-enter: #027002;
+  --primary-button-border-color-active: #054A05;
+  --primary-button-border-color-disabled: #5ACD5A;
 
   --success-button-font-color: #FFF;
   --success-button-font-color-enter: #FFF;
@@ -77,7 +77,7 @@
   --form-background-color: #FFF;
   --form-font-color: #222;
   --form-border: 1px solid #D1D1D1;
-  --form-border-enter: 1px solid #33C3F0;
+  --form-border-enter: 1px solid #008000;
   --form-border-enter-error: 1px solid #e74c3c;
   --form-border-enter-success: 1px solid #2ecc71;
 
@@ -89,8 +89,8 @@
   --alert-background-color: #FFF;
 
   --alert-primary-font-color: #FFF;
-  --alert-primary-border: 1px solid #33C3F0;
-  --alert-primary-background-color: #33C3F0;
+  --alert-primary-border: 1px solid #008000;
+  --alert-primary-background-color: #008000;
 
   --alert-success-font-color: #FFF;
   --alert-success-border: 1px solid #2ecc71;
