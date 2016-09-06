@@ -34,15 +34,15 @@
   --primary-button-font-color-active: #FFF;
   --primary-button-font-color-disabled: #FFF;
 
-  --primary-button-background-color: #008000;
-  --primary-button-background-color-enter: #027002;
-  --primary-button-background-color-active: #054A05;
-  --primary-button-background-color-disabled: #5ACD5A;
+  --primary-button-background-color: #FF7300;
+  --primary-button-background-color-enter: #F97000;
+  --primary-button-background-color-active: #CF5D00;
+  --primary-button-background-color-disabled: #FD9947;
 
-  --primary-button-border: 1px solid #008000;
-  --primary-button-border-color-enter: #027002;
-  --primary-button-border-color-active: #054A05;
-  --primary-button-border-color-disabled: #5ACD5A;
+  --primary-button-border: 1px solid #FF7300;
+  --primary-button-border-color-enter: #F97000;
+  --primary-button-border-color-active: #CF5D00;
+  --primary-button-border-color-disabled: #FD9947;
 
   --success-button-font-color: #FFF;
   --success-button-font-color-enter: #FFF;
@@ -89,8 +89,8 @@
   --alert-background-color: #FFF;
 
   --alert-primary-font-color: #FFF;
-  --alert-primary-border: 1px solid #008000;
-  --alert-primary-background-color: #008000;
+  --alert-primary-border: 1px solid #FF7300;
+  --alert-primary-background-color: #FF7300;
 
   --alert-success-font-color: #FFF;
   --alert-success-border: 1px solid #2ecc71;
