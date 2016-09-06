@@ -112,3 +112,9 @@ a:hover {
 .text-danger {
   color: var(--text-color-danger)
 }
+
+/* Twitto specific */
+
+.metric, #replyCount {
+	font-family: var(--metrics-font-family);
+}
