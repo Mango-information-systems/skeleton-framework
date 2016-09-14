@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 2/6/2016 */
+/*! skeleton-framework | 1.1.1 | MIT | 3/14/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1248,4 +1248,31 @@ text {
 
 .metric {
 	font-size: 3rem;
+}
+
+.loading {
+	position: relative;
+}
+
+.loading::before {
+	content: "";
+	display: block;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, .8);
+}
+
+.loading::after {
+	content: "";
+	background-image: url("../img/cube.svg");
+	background-size: 30px 30px;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 20px;
 }
