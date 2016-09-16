@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 3/14/2016 */
+/*! skeleton-framework | 1.1.1 | MIT | 5/16/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -577,12 +577,6 @@ a:hover {
 
 .text-danger {
   color: #e74c3c
-}
-
-/* Twitto specific */
-
-.metric, #replyCount {
-	font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .button,
