@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 5/16/2016 */
+/*! skeleton-framework | 1.1.1 | MIT | 6/17/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1260,13 +1260,15 @@ text {
 }
 
 .loading::after {
-	content: "";
-	background-image: url("../img/cube.svg");
-	background-size: 30px 30px;
-	width: 30px;
-	height: 30px;
 	position: absolute;
 	right: 0;
 	top: 0;
-	margin: 20px;
+	width: 100%;
+	height: 100%;
+	content: "loading...";
+	text-align: center;
+	background-image: url("../img/cube.svg");
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-position: center;
 }
