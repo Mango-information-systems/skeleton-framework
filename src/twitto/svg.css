@@ -13,3 +13,20 @@ text {
 .metric {
 	font-size: 3rem;
 }
+
+.chartRow .bar {
+	fill: #eaeaea;
+	stroke: #fff;
+}
+
+.chartRow .label{
+	fill: #777777;
+	color: #777777;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.chartRow .category {
+	fill: #666666;
+	font-size: 2em
+}

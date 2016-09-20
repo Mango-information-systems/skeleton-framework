@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 6/17/2016 */
+/*! skeleton-framework | 1.1.1 | MIT | 2/20/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1242,6 +1242,23 @@ text {
 
 .metric {
 	font-size: 3rem;
+}
+
+.chartRow .bar {
+	fill: #eaeaea;
+	stroke: #fff;
+}
+
+.chartRow .label{
+	fill: #777777;
+	color: #777777;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.chartRow .category {
+	fill: #666666;
+	font-size: 2em
 }
 
 .loading {
