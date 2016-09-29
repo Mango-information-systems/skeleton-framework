@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 3/28/2016 */
+/*! skeleton-framework | 1.1.1 | MIT | 4/29/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1254,6 +1254,7 @@ text {
 	color: #777777;
 	font-size: 2em;
 	font-weight: bold;
+	text-anchor: end;
 }
 
 .chartRow .category {

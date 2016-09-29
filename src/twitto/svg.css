@@ -24,6 +24,7 @@ text {
 	color: #777777;
 	font-size: 2em;
 	font-weight: bold;
+	text-anchor: end;
 }
 
 .chartRow .category {
