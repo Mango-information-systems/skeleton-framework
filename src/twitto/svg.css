@@ -16,18 +16,17 @@ text {
 
 .chartRow .bar {
 	fill: #eaeaea;
-	stroke: #fff;
+	stroke: none;
 }
 
 .chartRow .label{
 	fill: #777777;
-	color: #777777;
-	font-size: 2em;
+	font-size: 1.6em;
 	font-weight: bold;
 	text-anchor: end;
 }
 
 .chartRow .category {
 	fill: #666666;
-	font-size: 2em
+	font-size: 1.6em
 }
