@@ -24,8 +24,12 @@
 	font-size: 1.2rem;
 	color: black;
 }
-.card i {
+.card i, .button i {
 	color: var(--link-color);
+}
+
+.button-primary i {
+	color: var(--primary-button-font-color);
 }
 
 a.card {

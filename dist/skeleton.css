@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 4/23/2016 */
+/*! skeleton-framework | 1.1.1 | MIT | 0/23/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -971,8 +971,12 @@ li {
 	color: black;
 }
 
-.card i {
+.card i, .button i {
 	color: #F47216;
+}
+
+.button-primary i {
+	color: #FFF;
 }
 
 a.card {
