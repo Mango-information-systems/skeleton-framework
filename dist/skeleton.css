@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 0/23/2016 */
+/*! skeleton-framework | 1.1.1 | MIT | 1/21/2016 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -481,7 +481,7 @@ h5,
 h6 {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1.6rem;
   font-weight: 400;
 }
 
@@ -1041,13 +1041,13 @@ pre > code {
 }
 
 .alert.alert-danger {
-  border: 1px solid #e74c3c;
-  color: #FFF;
-  background-color: #e74c3c;
+  border: 8px solid #ff6600;
+  color: black;
+  background-color: white;
 }
 
 .alert.alert-danger a {
-  color: #FFF;
+  color: black;
 }
 
 .table-responsive {
