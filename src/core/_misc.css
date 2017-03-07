@@ -39,6 +39,7 @@ footer a.active {
   padding-left: 0;
   border:none;
   font-size: 120%;
+  line-height: 1.8rem;
 }
 
 .reference blockquote:before {
