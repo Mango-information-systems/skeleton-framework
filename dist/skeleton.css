@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 2/7/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 6/11/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -271,6 +271,9 @@ footer
   .sm-twelve[class*='column'] {
     width: 99.9999999996%;
   }
+  .sm-offset-by-zero[class*='column'] {
+    margin-left: 0;
+  }
   .sm-offset-by-one[class*='column'] {
     margin-left: 8.3333333333%;
   }
@@ -350,6 +353,9 @@ footer
   }
   .md-twelve[class*='column'] {
     width: 99.9999999996%;
+  }
+  .md-offset-by-zero[class*='column'] {
+    margin-left: 0;
   }
   .md-offset-by-one[class*='column'] {
     margin-left: 8.3333333333%;
@@ -431,6 +437,9 @@ footer
   .lg-twelve[class*='column'] {
     width: 99.9999999996%;
   }
+  .lg-offset-by-zero[class*='column'] {
+    margin-left: 0;
+  }
   .lg-offset-by-one[class*='column'] {
     margin-left: 8.3333333333%
   }
@@ -470,8 +479,7 @@ footer
   }
 }
 
-/* Base Typo
- ------------------------------------------------- */
+/* Base Typo */
 
 h1,
 h2,
@@ -577,8 +585,7 @@ p {
   margin-top: 0;
 }
 
-/* Links
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Links */
 
 a {
   color: #F47216;
@@ -588,8 +595,7 @@ a:hover {
   color: #e85d00;
 }
 
-/* Colors
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Colors */
 
 .text-primary {
  color: #1EAEDB
