@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 6/11/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 5/23/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1351,6 +1351,11 @@ footer a.active {
 
 /* References and people */
 
+.reference {
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+}
+
 .reference blockquote {
   margin-top:0.5rem;
   margin-bottom:0;
@@ -1367,7 +1372,7 @@ footer a.active {
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
-  color: #000;
+  color: #777;
   font-size: 1.2em;
   padding-right: 0.2em;
 
@@ -1388,7 +1393,7 @@ The :after has been included for convenience and consistency
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
-  color: #000;
+  color: #777;
   font-size: 1.2em;
   padding-left: 0.2em;
 }
