@@ -43,8 +43,14 @@ footer a.active {
   margin-left: 0;
   padding-left: 0;
   border:none;
-  font-size: 120%;
-  line-height: 1.8rem;
+}
+
+@media (min-width: 1200px) {
+  /* Larger than Desktop HD */
+	.reference blockquote {
+	  font-size: 1.2rem;
+	  line-height: 1.8rem;
+	}
 }
 
 .reference blockquote:before {
@@ -84,21 +90,8 @@ cite { color: #777; }
 
 .client-logo { margin-bottom: 4rem; }
 
-img.u-pull-left {
-
-  margin:0 1rem 0.5rem 0;
-  padding:0;
-
-}
-
-img.u-pull-right {
-
-  margin:0 0 0.5rem 1rem;
-  padding:0;
-
-}
-
 .profile-photo {
+  margin-bottom: 1rem;
   border: 1px solid #aaa;
   background-origin: content-box;
   box-shadow: 0 4px 2px rgba(0, 0, 0, 0.3);
