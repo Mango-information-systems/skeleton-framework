@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 5/23/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 4/29/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -500,8 +500,8 @@ h1 {
 }
 
 h1.small {
-  font-size: 1.5rem;
-  line-height: 1;
+  font-size: 1.6rem;
+  line-height: 1.1;
   /*letter-spacing: -0.05rem;*/
 }
 
@@ -512,8 +512,7 @@ h2 {
 }
 
 h2.small {
-  font-size: 1.5rem;
-  line-height: 1.6;
+  font-size: 1.4rem;
   letter-spacing: 0;
 }
 
@@ -559,7 +558,7 @@ thead th {
   }
 
   h2 {
-    font-size: 3.0rem;
+    font-size: 2.5rem;
   }
 
   h2.small {
@@ -568,7 +567,7 @@ thead th {
   }
 
   h3 {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
   h4 {
     font-size: 1.5rem;
@@ -954,7 +953,7 @@ li {
 
 .card {
   border: 1px solid #E1E1E1;
-  padding: 15px 25px;
+  padding: 25px;
   border-radius: 4px;
   box-shadow: 1px 1px 1px #E1E1E1;
   min-height: 160px;
@@ -1362,8 +1361,14 @@ footer a.active {
   margin-left: 0;
   padding-left: 0;
   border:none;
-  font-size: 120%;
-  line-height: 1.8rem;
+}
+
+@media (min-width: 1200px) {
+  /* Larger than Desktop HD */
+	.reference blockquote {
+	  font-size: 1.2rem;
+	  line-height: 1.8rem;
+	}
 }
 
 .reference blockquote:before {
@@ -1404,21 +1409,8 @@ cite { color: #777; }
 
 .client-logo { margin-bottom: 4rem; }
 
-img.u-pull-left {
-
-  margin:0 1rem 0.5rem 0;
-  padding:0;
-
-}
-
-img.u-pull-right {
-
-  margin:0 0 0.5rem 1rem;
-  padding:0;
-
-}
-
 .profile-photo {
+  margin-bottom: 1rem;
   border: 1px solid #aaa;
   background-origin: content-box;
   box-shadow: 0 4px 2px rgba(0, 0, 0, 0.3);
