@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 4/29/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 5/30/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -618,21 +618,46 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  height: 2.75rem;
-  padding: 0 2rem;
+  padding: 0 1rem;
   color: #555;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: .8rem;
   font-weight: 400;
-  line-height: 2.75rem;
+  line-height: 1.6rem;
   text-decoration: none;
-  white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
   border: 1px solid #BBB;
   cursor: pointer;
   -webkit-transition: border 0.2s;
   transition: border 0.2s;
+}
+
+@media (min-width: 720px) {
+  /* Larger than tablet */
+	.button,
+	button,
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"] {
+	  font-size: 1rem;
+	}
+}
+
+@media (min-width: 960px) {
+  /* Larger than desktop */
+  
+	.button,
+	button,
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"] {
+	  height: 2.75rem;
+	  padding: 0 1.6rem;
+	  font-size: 1.2rem;
+	  line-height: 2.75rem;
+	  white-space: nowrap;
+	}
 }
 
 .button:hover,
