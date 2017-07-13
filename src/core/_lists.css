@@ -23,3 +23,13 @@ ol ul {
 li {
   margin-bottom: .5rem;
 }
+
+.list-inline {
+  margin-bottom: 0;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: .1rem;
+  padding-left: .1rem;
+  margin-bottom: .25rem;
+}

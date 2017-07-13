@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 5/30/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 4/13/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -974,6 +974,17 @@ li {
   margin-bottom: .5rem;
 }
 
+.list-inline {
+  margin-bottom: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding-right: .1rem;
+  padding-left: .1rem;
+  margin-bottom: .25rem;
+}
+
 /* Cards */
 
 .card {
@@ -1353,6 +1364,22 @@ hr {
 blockquote {
   border-left: 6px solid #ddd;
   padding-left: 2rem;
+}
+
+.tag {
+  padding: .2rem .3rem;
+  font-size: 80%;
+  background-color: #777;
+  color: white;
+  border-radius: .1rem;
+}
+
+.tag-primary, .tag-domain {
+  background-color: #ff6600;
+}
+
+.tag-tech {
+  background-color: #2ecc71;
 }
 
 /* Footer links and navigation */
