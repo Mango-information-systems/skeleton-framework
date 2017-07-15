@@ -24,6 +24,11 @@
 	font-size: 1.2rem;
 	color: black;
 }
+
+.card h4 {
+	font-size: 1rem;
+}
+
 .card i, .button i {
 	color: var(--link-color);
 }
