@@ -29,14 +29,6 @@
 	font-size: 1rem;
 }
 
-.card i, .button i {
-	color: var(--link-color);
-}
-
-.button-primary i {
-	color: var(--primary-button-font-color);
-}
-
 a.card {
   display: block;
   color: var(--card-anchor-color);

@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 6/15/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 0/16/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -597,7 +597,7 @@ a:hover {
 /* Colors */
 
 .text-primary {
- color: #1EAEDB
+ color: #F47216
 }
 
 .text-success {
@@ -1014,14 +1014,6 @@ li {
 
 .card h4 {
 	font-size: 1rem;
-}
-
-.card i, .button i {
-	color: #F47216;
-}
-
-.button-primary i {
-	color: #FFF;
 }
 
 a.card {
