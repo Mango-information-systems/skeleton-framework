@@ -103,6 +103,27 @@ p {
   margin-top: 0;
 }
 
+/* Colors */
+.text-primary {
+ color: var(--text-color-primary);
+}
+
+.text-success {
+  color: var(--text-color-success);
+}
+
+.text-danger {
+  color: var(--text-color-danger);
+}
+
+text, tspan {
+	font-size: .8rem;
+}
+
+cite {
+  color: var(--button-font-color-disabled);
+}
+
 /* Links */
 
 a {
@@ -113,19 +134,6 @@ a:hover {
   color: var(--link-color-hover);
 }
 
-/* Colors */
-.text-primary {
- color: var(--text-color-primary)
-}
-
-.text-success {
-  color: var(--text-color-success)
-}
-
-.text-danger {
-  color: var(--text-color-danger)
-}
-
-text, tspan {
-	font-size: .8rem;
+cite a {
+  color: var(--button-font-color-disabled);
 }

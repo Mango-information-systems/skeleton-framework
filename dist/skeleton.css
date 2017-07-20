@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 0/16/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 4/20/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -584,6 +584,28 @@ p {
   margin-top: 0;
 }
 
+/* Colors */
+
+.text-primary {
+ color: #F47216;
+}
+
+.text-success {
+  color: #2ecc71;
+}
+
+.text-danger {
+  color: #e74c3c;
+}
+
+text, tspan {
+	font-size: .8rem;
+}
+
+cite {
+  color: #888;
+}
+
 /* Links */
 
 a {
@@ -594,22 +616,8 @@ a:hover {
   color: #e85d00;
 }
 
-/* Colors */
-
-.text-primary {
- color: #F47216
-}
-
-.text-success {
-  color: #2ecc71
-}
-
-.text-danger {
-  color: #e74c3c
-}
-
-text, tspan {
-	font-size: .8rem;
+cite a {
+  color: #888;
 }
 
 .button,
@@ -1450,8 +1458,6 @@ The :after has been included for convenience and consistency
   font-size: 1.2em;
   padding-left: 0.2em;
 }
-
-cite { color: #777; }
 
 .person { margin-top: 2rem; margin-bottom:2rem; }
 
