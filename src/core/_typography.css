@@ -116,12 +116,16 @@ p {
   color: var(--text-color-danger);
 }
 
+.text-muted {
+  color: var(--text-color-muted);
+}
+
 text, tspan {
 	font-size: .8rem;
 }
 
 cite {
-  color: var(--button-font-color-disabled);
+  color: var(--text-color-muted);
 }
 
 /* Links */
@@ -135,5 +139,5 @@ a:hover {
 }
 
 cite a {
-  color: var(--button-font-color-disabled);
+  color: var(--text-color-muted);
 }

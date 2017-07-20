@@ -598,6 +598,10 @@ p {
   color: #e74c3c;
 }
 
+.text-muted {
+  color: #888;
+}
+
 text, tspan {
 	font-size: .8rem;
 }
@@ -1425,38 +1429,6 @@ footer a.active {
 	  font-size: 1.2rem;
 	  line-height: 1.8rem;
 	}
-}
-
-.reference blockquote:before {
-  content:"\f10d";
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: bold;
-  text-decoration: none;
-  color: #777;
-  font-size: 1.2em;
-  padding-right: 0.2em;
-
-}
-
-/*
-some people prefer to just use the
-:before quotation mark and make it very large.
-
-I prefer the simple quotes at either end
-
-The :after has been included for convenience and consistency
-*/
-
-.reference blockquote:after {
-  content:"\f10e";
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: bold;
-  text-decoration: none;
-  color: #777;
-  font-size: 1.2em;
-  padding-left: 0.2em;
 }
 
 .person { margin-top: 2rem; margin-bottom:2rem; }
