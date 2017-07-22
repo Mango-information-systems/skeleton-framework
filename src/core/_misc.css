@@ -50,39 +50,35 @@ footer a.active {
 
 .reference {
   margin-top: 0.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .reference blockquote {
-  margin-top:0.5rem;
-  margin-bottom:0;
-  margin-left: 0;
+  margin-top: 0rem;
+  margin-bottom: 0;
+  margin-left: 1rem;
   padding-left: 0;
-  border:none;
+  border: none;
 }
 
 @media (min-width: 1200px) {
   /* Larger than Desktop HD */
 	.reference blockquote {
-	  font-size: 1.2rem;
-	  line-height: 1.8rem;
+	  font-size: 1.1rem;
+	  line-height: 1.6rem;
 	}
 }
 
-.person { margin-top: 2rem; margin-bottom:2rem; }
-
-.client-logo { margin-bottom: 4rem; }
+.client-logo {
+  margin-bottom: 4rem;
+}
 
 .profile-photo {
   margin-bottom: 1rem;
+  margin-left: 1rem;
   border: 1px solid #aaa;
   background-origin: content-box;
   box-shadow: 0 4px 2px rgba(0, 0, 0, 0.3);
-}
-
-@media (max-width:400px)
-{
-  .profile-photo {  min-width: 200px; }
 }
 
 /* Clearing */
