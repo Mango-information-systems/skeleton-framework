@@ -33,3 +33,10 @@ li {
   padding-left: .1rem;
   margin-bottom: .25rem;
 }
+
+.list-inline > li {
+  display: inline-block;
+  padding-right: .2rem;
+  padding-left: .2rem;
+  margin-bottom: .5rem;
+}
