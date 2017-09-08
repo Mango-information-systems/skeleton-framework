@@ -101,7 +101,7 @@
   --alert-success-background-color: #2ecc71;
 
   --alert-danger-font-color: black;
-  --alert-danger-border: 8px solid #ff6600;
+  --alert-danger-border: 2px solid #ff6600;
   --alert-danger-background-color: white;
 
   --td-border-bottom: 1px solid #E1E1E1;

@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 5/4/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 5/8/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1103,7 +1103,7 @@ pre > code {
 }
 
 .alert.alert-danger {
-  border: 8px solid #ff6600;
+  border: 2px solid #ff6600;
   color: black;
   background-color: white;
 }
