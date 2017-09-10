@@ -27,5 +27,6 @@
 @import "core/_tables.css";
 @import "core/_spacing.css";
 @import "core/_utils.css";
+@import "invEx/navbar.css";
 @import "core/_misc.css";
 @import "core/_queries.css";

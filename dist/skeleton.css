@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 6/9/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 0/10/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1169,6 +1169,10 @@ p {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.navbar {
+	margin: 2rem 0;
 }
 
 /* Misc */
