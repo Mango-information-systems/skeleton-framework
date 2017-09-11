@@ -65,6 +65,20 @@ input[type="button"][disabled] {
   cursor: not-allowed;
 }
 
+.button.button-sm,
+button.button-sm,
+input[type="submit"].button-sm,
+input[type="reset"].button-sm,
+input[type="button"].button-sm {
+  height: 2rem;
+  padding: 0 1rem;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+  letter-spacing: 0.1rem;
+}
+
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
