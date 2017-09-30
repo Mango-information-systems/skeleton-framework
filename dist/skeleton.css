@@ -1696,12 +1696,12 @@ section.alternate a {
 	color: #222;
 }
 
-.button.alternate,
-button.alternate,
-input[type="submit"].alternate,
-input[type="reset"].alternate,
-input[type="button"].alternate {
-	color: #222;
+.alternate .button,
+.alternate button,
+.alternate input[type="submit"],
+.alternate input[type="reset"],
+.alternate input[type="button"] {
+	color: black;
 }
 
 /*  Animated link to next section  (arrow/chevron down)   */

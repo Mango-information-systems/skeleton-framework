@@ -26,12 +26,12 @@ section.alternate a {
 	color: var(--text-color-alternate);
 }
 
-.button.alternate,
-button.alternate,
-input[type="submit"].alternate,
-input[type="reset"].alternate,
-input[type="button"].alternate {
-	color: var(--text-color-alternate);
+.alternate .button,
+.alternate button,
+.alternate input[type="submit"],
+.alternate input[type="reset"],
+.alternate input[type="button"] {
+	color: black;
 }
 
 
