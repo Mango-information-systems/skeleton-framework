@@ -76,3 +76,15 @@ section.alternate a {
 		background-attachment: fixed;
 	}
 }
+
+
+/* fix jumpy background image on IE... :/ */
+@media all and (-ms-high-contrast:none)
+{
+	.bg-section {
+		background-attachment: scroll;
+	}
+	*::-ms-backdrop, .bg-section {
+		background-attachment: scroll;
+	}
+}
