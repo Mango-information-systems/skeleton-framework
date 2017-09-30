@@ -466,6 +466,8 @@ template {
 html {
   font-size: 1em;
   box-sizing: border-box;
+  overflow: hidden;
+  height: 100%;  
 }
 
 *,
@@ -475,6 +477,8 @@ html {
 }
 
 body {
+  overflow: auto;
+  height: 100%;
   background-color: black;
   font-size: 1rem;
   line-height: 1.6rem;
