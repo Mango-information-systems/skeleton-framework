@@ -7,15 +7,18 @@
 
   --font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-  --background-color: #fff;
-  --font-color: #222;
+  --background-color: black;
+  --font-color: #ddd;
 
-  --link-color: #1EAEDB;
-  --link-color-hover: #0FA0CE;
+  --link-color: #ddd;
+  --link-color-hover: white;
 
-  --text-color-primary: #1EAEDB;
+  --text-color-primary: white;
   --text-color-danger: #e74c3c;
   --text-color-success: #2ecc71;
+  
+  --background-color-alternate: white;
+  --text-color-alternate: #222;
 
   --button-font-color: #555;
   --button-font-color-enter: #333;
@@ -29,20 +32,20 @@
   --button-border-color-active: #222;
   --button-border-disabled: 1px solid #E3E3E3;
 
-  --primary-button-font-color: #FFF;
-  --primary-button-font-color-enter: #FFF;
-  --primary-button-font-color-active: #FFF;
-  --primary-button-font-color-disabled: #FFF;
+  --primary-button-font-color: black;
+  --primary-button-font-color-enter: black;
+  --primary-button-font-color-active: black;
+  --primary-button-font-color-disabled: #222;
 
-  --primary-button-background-color: #33C3F0;
-  --primary-button-background-color-enter: #1EAEDB;
-  --primary-button-background-color-active: #157b9b;
-  --primary-button-background-color-disabled: #7CD9F8;
+  --primary-button-background-color: rgba(255, 255, 255, .75);
+  --primary-button-background-color-enter: white;
+  --primary-button-background-color-active: white;
+  --primary-button-background-color-disabled: #aaa;
 
-  --primary-button-border: 1px solid #33C3F0;
-  --primary-button-border-color-enter: #1EAEDB;
-  --primary-button-border-color-active: #157b9b;
-  --primary-button-border-color-disabled: #7CD9F8;
+  --primary-button-border: 1px solid white;
+  --primary-button-border-color-enter: white;
+  --primary-button-border-color-active: black;
+  --primary-button-border-color-disabled: #aaa;
 
   --success-button-font-color: #FFF;
   --success-button-font-color-enter: #FFF;
@@ -77,7 +80,7 @@
   --form-background-color: #FFF;
   --form-font-color: #222;
   --form-border: 1px solid #D1D1D1;
-  --form-border-enter: 1px solid #33C3F0;
+  --form-border-enter: 1px solid #D1D1D1;
   --form-border-enter-error: 1px solid #e74c3c;
   --form-border-enter-success: 1px solid #2ecc71;
 

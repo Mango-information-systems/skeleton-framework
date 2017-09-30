@@ -3,8 +3,6 @@
 *
 *****/
 
-
-
 /*  Full height section   */
 section {
 	width: 100%;
@@ -12,8 +10,6 @@ section {
 	display: table;
 	margin: 0;
 	max-width: none;
-	color: white;
-	background-color: black;
 	height: 100vh;
 }
 
@@ -22,12 +18,12 @@ section {
 /* Alternate section color scheme  */
 
 section.alternate {
-	background-color: white;
-	color: black;
+	background-color: var(--background-color-alternate);
+	color: var(--text-color-alternate);
 }
 
 section.alternate a {
-	color: black;
+	color: var(--text-color-alternate);
 }
 
 .button.alternate,
@@ -35,9 +31,8 @@ button.alternate,
 input[type="submit"].alternate,
 input[type="reset"].alternate,
 input[type="button"].alternate {
-	color: black;
+	color: var(--text-color-alternate);
 }
-
 
 
 /*  Animated link to next section  (arrow/chevron down)   */
@@ -67,3 +62,17 @@ input[type="button"].alternate {
 	animation: nextSection 1.75s ease-in-out infinite;
 }
 
+/* Section background images  */
+
+.bg-section {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+@media (min-width: 560px) {
+  /* Larger than phablet (also point when grid becomes active) */
+	.bg-section {
+		background-attachment: fixed;
+	}
+}

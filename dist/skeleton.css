@@ -475,12 +475,12 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-color: black;
   font-size: 1rem;
   line-height: 1.6rem;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222;
+  color: #ddd;
 }
 
 .container {
@@ -998,17 +998,18 @@ h6 {
 /* Links */
 
 a {
-  color: #1EAEDB;
+  color: #ddd;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: #0FA0CE;
+  color: white;
 }
 
 /* Colors */
 
 .text-primary {
- color: #1EAEDB
+ color: white
 }
 
 .text-success {
@@ -1029,11 +1030,9 @@ input[type="button"] {
   padding: 0 1.9rem;
   color: #555;
   text-align: center;
-  font-size: 0.7rem;
   font-weight: 600;
   line-height: 2.5rem;
   letter-spacing: 0.1rem;
-  text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
@@ -1087,9 +1086,9 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  border: 1px solid #33C3F0;
-  color: #FFF;
-  background-color: #33C3F0;
+  border: 1px solid white;
+  color: black;
+  background-color: rgba(255, 255, 255, .75);
   transition: background-color 0.2s;
 }
 
@@ -1103,9 +1102,9 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB;
+  color: black;
+  background-color: white;
+  border-color: white;
 }
 
 .button.button-primary:active,
@@ -1113,9 +1112,9 @@ button.button-primary:active,
 input[type="submit"].button-primary:active,
 input[type="reset"].button-primary:active,
 input[type="button"].button-primary:active {
-  color: #FFF;
-  background-color: #157b9b;
-  border-color: #157b9b;
+  color: black;
+  background-color: white;
+  border-color: black;
 }
 
 .button.button-primary:disabled,
@@ -1123,10 +1122,10 @@ button.button-primary:disabled,
 input[type="submit"].button-primary:disabled,
 input[type="reset"].button-primary:disabled,
 input[type="button"].button-primary:disabled {
-  color: #FFF;
+  color: #222;
   cursor: not-allowed;
-  background-color: #7CD9F8;
-  border-color: #7CD9F8;
+  background-color: #aaa;
+  border-color: #aaa;
 }
 
 .button.button-success,
@@ -1288,7 +1287,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #33C3F0;
+  border: 1px solid #D1D1D1;
   outline: 0;
 }
 
@@ -1683,8 +1682,6 @@ section {
 	display: table;
 	margin: 0;
 	max-width: none;
-	color: white;
-	background-color: black;
 	height: 100vh;
 }
 
@@ -1692,11 +1689,11 @@ section {
 
 section.alternate {
 	background-color: white;
-	color: black;
+	color: #222;
 }
 
 section.alternate a {
-	color: black;
+	color: #222;
 }
 
 .button.alternate,
@@ -1704,7 +1701,7 @@ button.alternate,
 input[type="submit"].alternate,
 input[type="reset"].alternate,
 input[type="button"].alternate {
-	color: black;
+	color: #222;
 }
 
 /*  Animated link to next section  (arrow/chevron down)   */
@@ -1730,4 +1727,18 @@ input[type="button"].alternate {
 .next-section-link {
 	-webkit-animation: nextSection 1.75s ease-in-out infinite;
 	animation: nextSection 1.75s ease-in-out infinite;
+}
+
+/* Section background images  */
+
+.bg-section {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media (min-width: 560px) {
+  /* Larger than phablet (also point when grid becomes active) */
+	.bg-section {
+		background-attachment: fixed;
+	}
 }
