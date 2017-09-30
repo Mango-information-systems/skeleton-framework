@@ -14,6 +14,7 @@
 - Media Queries
 */
 
+@import "../node_modules/normalize.css/normalize.css";
 @import "core/_root.css";
 @import "core/_base.css";
 @import "core/_grid.css";
