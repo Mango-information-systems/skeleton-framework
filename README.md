@@ -1,4 +1,14 @@
-# Skeleton Framework
+# Alcove.design style, based on Skeleton Framework
+
+CSS style for the website https://alcove.design.
+
+Copyright Mango Information Systems SPRL.
+
+Skeleton framework is open source, cf. attached license file.
+
+The visual identity of Alcove design website is  the property of Mango Information Systems SPRL. All rights reserved.
+
+
 
 A simple responsive framework for mobile friendly development. Skeleton Framework takes its roots from [dhg/Skeleton](https://github.com/dhg/Skeleton), and builds upon the same basic principles.
 
