@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 3/27/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 2/3/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1229,6 +1229,14 @@ table.u-full-width.pricing-table {
 	color: #eee;
 }
 
+.pricing-table thead th.small small {
+	color: #f0f0f0;
+}
+
+.pricing-table thead th.alternate small {
+	color: #666;
+}
+
 .pricing-table thead th {
 	background-color: rgb(71,69,70); /* taken from the logo */
 	color: #fff;
@@ -1239,6 +1247,23 @@ table.u-full-width.pricing-table {
 
 .pricing-table thead th.primary {
 	background-color: #f60; /* taken from the logo */
+}
+
+.pricing-table thead th.large {
+	background-color: #474546;
+}
+
+.pricing-table thead th.medium {
+	background-color: #666;
+}
+
+.pricing-table thead th.small {
+	background-color: #999;
+}
+
+.pricing-table thead th.alternate {
+	color: #222;
+	background-color: #ccc;
 }
 
 .pricing-table tbody > tr:last-child > td {
