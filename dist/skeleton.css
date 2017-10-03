@@ -609,7 +609,7 @@ thead th {
 }
 
 text, tspan {
-	font-size: .8rem;
+  font-size: .8rem;
 }
 
 cite {
@@ -628,6 +628,12 @@ a:hover {
 
 cite a {
   color: #888;
+}
+
+/* Other */
+
+.small {
+  font-size: 80%;
 }
 
 .button,

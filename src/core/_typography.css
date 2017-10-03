@@ -127,7 +127,7 @@ thead th {
 }
 
 text, tspan {
-	font-size: .8rem;
+  font-size: .8rem;
 }
 
 cite {
@@ -146,4 +146,10 @@ a:hover {
 
 cite a {
   color: var(--text-color-muted);
+}
+
+/* Other */
+
+.small {
+  font-size: 80%;
 }
