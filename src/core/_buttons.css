@@ -242,3 +242,14 @@ input[type="button"].button-danger:disabled {
   background-color: var(--danger-button-background-color-disabled);
   border-color: var(--danger-button-border-color-disabled);
 }
+
+.button.button-sm,
+button.button-sm,
+input[type="submit"].button-sm,
+input[type="reset"].button-sm,
+input[type="button"].button-sm {
+  height: 1.75rem;
+  padding: 0 .5rem;
+  font-size: .6rem;
+  line-height: 1.2rem;
+}
