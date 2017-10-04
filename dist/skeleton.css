@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 2/3/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 3/4/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -867,6 +867,17 @@ input[type="button"].button-danger:disabled {
   border-color: #ee8377;
 }
 
+.button.button-sm,
+button.button-sm,
+input[type="submit"].button-sm,
+input[type="reset"].button-sm,
+input[type="button"].button-sm {
+  height: 1.75rem;
+  padding: 0 .5rem;
+  font-size: .6rem;
+  line-height: 1.2rem;
+}
+
 input[type="email"],
 input[type="number"],
 input[type="date"],
@@ -1552,4 +1563,23 @@ footer a.active {
 
 @media (min-width: 1200px) {
   /* Larger than Desktop HD */
+}
+
+.modal {
+	background: rgba(0,0,0,.25);
+}
+
+.modal__dialog {
+	width: 35rem;
+	max-width: 80%;
+	height: 80%;
+	margin: 25px 0;
+	background: #fff;
+	padding: 1em 1.5em;
+	position:relative;
+}
+
+.modal-close-icon {
+  position: absolute;
+  right: 1.5em;
 }
