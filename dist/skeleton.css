@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 3/4/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 4/5/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1575,11 +1575,16 @@ footer a.active {
 	height: 80%;
 	margin: 25px 0;
 	background: #fff;
-	padding: 1em 1.5em;
+	padding: 1rem;
 	position:relative;
 }
 
 .modal-close-icon {
   position: absolute;
-  right: 1.5em;
+  right: 1rem;
+}
+
+.modal-inner {
+	height: 100%;
+	overflow: auto;
 }
