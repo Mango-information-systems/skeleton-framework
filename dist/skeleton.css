@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 6/30/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 0/8/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1753,4 +1753,23 @@ section.alternate a {
 	*::-ms-backdrop, .bg-section {
 		background-attachment: scroll;
 	}
+}
+
+.language-picker {
+	position: absolute;
+	top: 0px;
+	right: 2rem;
+}
+
+.lang {
+	padding: 0 .5rem;
+	border: 1px solid #222;
+}
+
+.lang-active {
+	background-color: #222;
+}
+
+.lang-select:hover {
+	background-color: #444;
 }

@@ -1,0 +1,16 @@
+.language-picker {
+	position: absolute;
+	top: 0px;
+	right: 2rem;
+}
+.lang {
+	padding: 0 .5rem;
+	border: 1px solid #222;
+}
+.lang-active {
+	background-color: #222;
+}
+
+.lang-select:hover {
+	background-color: #444;
+}
