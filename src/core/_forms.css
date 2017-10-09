@@ -105,3 +105,8 @@ label > .label-body {
   margin-left: 0.5rem;
   font-weight: normal;
 }
+
+#mce-error-response {
+	font-size: .8rem;
+	color: var(--text-color-danger);
+}

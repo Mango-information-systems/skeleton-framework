@@ -983,6 +983,11 @@ label > .label-body {
   font-weight: normal;
 }
 
+#mce-error-response {
+	font-size: .8rem;
+	color: #e74c3c;
+}
+
 ul {
   list-style: disc inside;
 }
