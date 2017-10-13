@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 0/8/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 5/13/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -466,6 +466,7 @@ template {
 html {
   font-size: 1em;
   box-sizing: border-box;
+  height: 100%;
 }
 
 *,
@@ -475,12 +476,13 @@ html {
 }
 
 body {
-  background-color: black;
+  min-height: 100%;
   font-size: 1rem;
   line-height: 1.6rem;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #ddd;
+  background-color: black;
 }
 
 .container {
@@ -920,6 +922,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 2rem;
   font-weight: 300;
 }

@@ -5,7 +5,8 @@
   --max-width: 1200px;
   --gutter: 1rem;
 
-  --font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --titles-font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   --background-color: black;
   --font-color: #ddd;
