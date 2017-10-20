@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 5/13/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 5/20/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -477,7 +477,7 @@ html {
 
 body {
   min-height: 100%;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.6rem;
   font-weight: 400;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1737,6 +1737,7 @@ section.alternate a {
 .bg-section {
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 @media (min-width: 560px) {

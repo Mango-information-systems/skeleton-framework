@@ -67,6 +67,7 @@ section.alternate a {
 .bg-section {
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 
