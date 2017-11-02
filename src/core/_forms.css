@@ -122,7 +122,7 @@ label > .label-body {
 
 .cta-focus {
 	margin-right: 1rem;
-	-webkit-animation: emphasis 1s ease-in-out 4;
-	-moz-animation: emphasis 1s ease-in-out 4;
-	animation: emphasis 1s ease-in-out 4;
+	-webkit-animation: emphasis 1.5s ease-in-out infinite;
+	-moz-animation: emphasis 1.5s ease-in-out infinite;
+	animation: emphasis 1.5s ease-in-out infinite;
 }

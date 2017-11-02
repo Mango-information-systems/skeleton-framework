@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 4/2/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 5/3/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1342,8 +1342,8 @@ label > .label-body {
 
 .cta-focus {
 	margin-right: 1rem;
-	-webkit-animation: emphasis 1s ease-in-out 4;
-	animation: emphasis 1s ease-in-out 4;
+	-webkit-animation: emphasis 1.5s ease-in-out infinite;
+	animation: emphasis 1.5s ease-in-out infinite;
 }
 
 ul {
