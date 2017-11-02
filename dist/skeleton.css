@@ -1328,6 +1328,24 @@ label > .label-body {
   font-weight: normal;
 }
 
+@-webkit-keyframes emphasis {
+	0%   { -webkit-transform:translate(0, 0); opacity: 0;  }
+	50%  { opacity: 1;  }
+	100% { -webkit-transform:translate(1rem, 0); opacity: 0; }
+}
+
+@keyframes emphasis {
+	0%   { -webkit-transform:translate(0, 0); transform:translate(0, 0); opacity: 0;  }
+	50%  { opacity: 1;  }
+	100% { -webkit-transform:translate(1rem, 0); transform:translate(1rem, 0); opacity: 0; }
+}
+
+.cta-focus {
+	margin-right: 1rem;
+	-webkit-animation: emphasis 1s ease-in-out 4;
+	animation: emphasis 1s ease-in-out 4;
+}
+
 ul {
   list-style: circle inside;
 }
