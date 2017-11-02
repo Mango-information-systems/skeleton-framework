@@ -10,11 +10,11 @@
 /*  Full height section   */
 section {
 	width: 100%;
+	max-width: none;
+	height: 100vh;
 	padding: 4rem 7%;
 	display: table;
 	margin: 0;
-	max-width: none;
-	height: 100%;
 }
 
 

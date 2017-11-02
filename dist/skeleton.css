@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 2/24/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 4/2/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -476,7 +476,6 @@ html {
 }
 
 body {
-  height: 100%;
   min-height: 100%;
   font-size: 1.1rem;
   line-height: 1.6rem;
@@ -1686,11 +1685,11 @@ hr {
 
 section {
 	width: 100%;
+	max-width: none;
+	height: 100vh;
 	padding: 4rem 7%;
 	display: table;
 	margin: 0;
-	max-width: none;
-	height: 100%;
 }
 
 /* Alternate section color scheme  */
@@ -1768,6 +1767,7 @@ section.alternate a {
 	position: absolute;
 	top: 0px;
 	right: 2rem;
+	margin-top: -3.75rem;
 }
 
 .lang {
