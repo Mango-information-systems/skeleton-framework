@@ -42,7 +42,7 @@ section.alternate a {
 /*  Animated link to next section  (arrow/chevron down)   */
 .section-bottom-sticky {
 	position: absolute;
-	bottom: 4rem;
+	bottom: 0;
 	width: 100%;
 }
 
