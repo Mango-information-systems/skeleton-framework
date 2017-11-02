@@ -1310,7 +1310,6 @@ label,
 legend {
   display: block;
   margin-bottom: 0.5rem;
-  font-weight: 600;
 }
 
 fieldset {
@@ -1715,7 +1714,7 @@ section.alternate a {
 
 .section-bottom-sticky {
 	position: absolute;
-	bottom: 4rem;
+	bottom: 0;
 	width: 100%;
 }
 
