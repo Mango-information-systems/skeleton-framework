@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 5/3/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 3/8/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1544,6 +1544,10 @@ p {
   margin-bottom: 1rem;
 }
 
+#logoHeading {
+	margin: 15vh auto;
+}
+
 .u-full-width {
   width: 100%;
 }
@@ -1690,7 +1694,7 @@ hr {
 }
 
 /*****
-* Full height sections
+* Full width sections
 *
 *****/
 
@@ -1698,12 +1702,11 @@ hr {
 	height: 100%;
 }
 
-/*  Full height section   */
+/*  Full width section   */
 
 section {
 	width: 100%;
-	max-width: none;
-	height: 100vh;
+	min-height: 30vh;
 	padding: 4rem 7%;
 	display: table;
 	margin: 0;
@@ -1726,31 +1729,6 @@ section.alternate a {
 .alternate input[type="reset"],
 .alternate input[type="button"] {
 	color: black;
-}
-
-/*  Animated link to next section  (arrow/chevron down)   */
-
-.section-bottom-sticky {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-}
-
-@-webkit-keyframes nextSection {
-	0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
-	50%  { opacity: 1;  }
-	100% { -webkit-transform:translate(0,20px); opacity: 0; }
-}
-
-@keyframes nextSection {
-	0%   { -webkit-transform:translate(0,-20px); transform:translate(0,-20px); opacity: 0;  }
-	50%  { opacity: 1;  }
-	100% { -webkit-transform:translate(0,20px); transform:translate(0,20px); opacity: 0; }
-}
-
-.next-section-link {
-	-webkit-animation: nextSection 1.75s ease-in-out infinite;
-	animation: nextSection 1.75s ease-in-out infinite;
 }
 
 /* Section background images  */

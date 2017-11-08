@@ -26,3 +26,7 @@ p {
 .alert {
   margin-bottom: 1rem;
 }
+
+#logoHeading {
+	margin: 15vh auto;
+}

@@ -1,5 +1,5 @@
 /*****
-* Full height sections
+* Full width sections
 *
 *****/
 
@@ -7,11 +7,10 @@
 	height: 100%;
 }
 
-/*  Full height section   */
+/*  Full width section   */
 section {
 	width: 100%;
-	max-width: none;
-	height: 100vh;
+	min-height: 30vh;
 	padding: 4rem 7%;
 	display: table;
 	margin: 0;
@@ -36,34 +35,6 @@ section.alternate a {
 .alternate input[type="reset"],
 .alternate input[type="button"] {
 	color: black;
-}
-
-
-/*  Animated link to next section  (arrow/chevron down)   */
-.section-bottom-sticky {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-}
-
-@-webkit-keyframes nextSection {
-	0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
-	50%  { opacity: 1;  }
-	100% { -webkit-transform:translate(0,20px); opacity: 0; }
-}@-moz-keyframes nextSection {
-	0%   { -moz-transform:translate(0,-20px); opacity: 0;  }
-	50%  { opacity: 1;  }
-	100% { -moz-transform:translate(0,20px); opacity: 0; }
-}@keyframes nextSection {
-	0%   { transform:translate(0,-20px); opacity: 0;  }
-	50%  { opacity: 1;  }
-	100% { transform:translate(0,20px); opacity: 0; }
-}
-
-.next-section-link {
-	-webkit-animation: nextSection 1.75s ease-in-out infinite;
-	-moz-animation: nextSection 1.75s ease-in-out infinite;
-	animation: nextSection 1.75s ease-in-out infinite;
 }
 
 /* Section background images  */
