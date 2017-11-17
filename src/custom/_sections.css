@@ -34,8 +34,24 @@ section.alternate a {
 .alternate input[type="submit"],
 .alternate input[type="reset"],
 .alternate input[type="button"] {
-	color: black;
+	color: white;
+	background-color: rgba(0, 0, 0, .75);
 }
+
+
+.alternate input[type="email"],
+.alternate input[type="date"],
+.alternate input[type="text"],
+.alternate input[type="tel"],
+.alternate input[type="url"],
+.alternate input[type="password"],
+.alternate input[type="number"],
+.alternate input[type="search"],
+.alternate select,
+.alternate textarea {
+	border-color: var(--button-border-color-enter);
+}
+
 
 /* Section background images  */
 
