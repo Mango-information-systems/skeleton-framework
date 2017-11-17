@@ -485,6 +485,10 @@ body {
   background-color: black;
 }
 
+footer {
+  border-top: 2px solid #333;
+}
+
 .container {
   margin-left: auto;
   width: 100%;
