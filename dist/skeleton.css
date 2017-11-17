@@ -1732,6 +1732,21 @@ section.alternate a {
 	background-color: rgba(0, 0, 0, .75);
 }
 
+.alternate .button:hover,
+.alternate button:hover,
+.alternate input[type="submit"]:hover,
+.alternate input[type="reset"]:hover,
+.alternate input[type="button"]:hover,
+.alternate .button:focus,
+.alternate button:focus,
+.alternate input[type="submit"]:focus,
+.alternate input[type="reset"]:focus,
+.alternate input[type="button"]:focus {
+	color: white;
+	background-color: rgba(30, 30, 30, .75);
+	outline: 0;
+}
+
 .alternate input[type="email"],
 .alternate input[type="date"],
 .alternate input[type="text"],
