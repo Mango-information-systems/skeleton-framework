@@ -217,17 +217,20 @@ section.has-light-background, section.has-light-background h1, section.has-light
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
- .reveal .controls button {
+
+.reveal .controls button {
+  opacity: 0.2;
+}
+
+ .reveal .controls .navigate-left, .reveal .controls .navigate-right {
 	display: none;
 	cursor: default;
  }
  
-.reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
   display: block;
   border-right-color: #666; }
 
-.reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
   display: block;
   border-left-color: #666; }
@@ -288,4 +291,11 @@ section.has-light-background, section.has-light-background h1, section.has-light
 	height:100%;
 	background-image:linear-gradient(to right, rgba(0, 0, 0, 0), black);
 	
+}
+
+/* Make sure side visual fits within very wide screen */
+@media screen and (min-aspect-ratio: 21/10) {
+	#side-visual { 
+		width: 45%;
+	}
 }
