@@ -5,4 +5,5 @@
 
 @import "core/_root.css";
 @import "../../node_modules/reveal.js/css/reveal.css";
+@import "custom/reveal-typography.css";
 @import "custom/reveal-theme.css";
