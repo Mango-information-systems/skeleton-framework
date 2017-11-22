@@ -352,9 +352,7 @@ body {
   pointer-events: none;
   overflow: visible;
   z-index: 1;
-/*
   text-align: center;
-*/
   -webkit-perspective: 600px;
           perspective: 600px;
   -webkit-perspective-origin: 50% 40%;
@@ -1810,6 +1808,10 @@ section.has-light-background, section.has-light-background h1, section.has-light
 /*********************************************
  * Visual storytelling
  *********************************************/
+
+.reveal.story .slides {
+  text-align: left;
+}
 
 .reveal.story .slides > section > section {
   padding-left: 55%;
