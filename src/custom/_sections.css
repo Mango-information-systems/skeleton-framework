@@ -35,6 +35,16 @@ section.alternate a {
 .alternate input[type="reset"],
 .alternate input[type="button"] {
 	color: black;
+	border: 1px solid #BBB;
+}
+
+.alternate .button.button-primary:hover,
+.alternate button.button-primary:hover,
+.alternate input[type="submit"].button-primary:hover,
+.alternate input[type="reset"].button-primary:hover,
+.alternate input[type="button"].button-primary:hover {
+	border: 1px solid #BBB;
+
 }
 
 /* Section background images  */
