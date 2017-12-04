@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 2/28/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 0/3/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1326,24 +1326,6 @@ label > .label-body {
   display: inline-block;
   margin-left: 0.5rem;
   font-weight: normal;
-}
-
-@-webkit-keyframes emphasis {
-	0%   { -webkit-transform:translate(0, 0); opacity: 0;  }
-	50%  { opacity: 1;  }
-	100% { -webkit-transform:translate(1rem, 0); opacity: 0; }
-}
-
-@keyframes emphasis {
-	0%   { -webkit-transform:translate(0, 0); transform:translate(0, 0); opacity: 0;  }
-	50%  { opacity: 1;  }
-	100% { -webkit-transform:translate(1rem, 0); transform:translate(1rem, 0); opacity: 0; }
-}
-
-.cta-focus {
-	margin-right: 1rem;
-	-webkit-animation: emphasis 1.5s ease-in-out infinite;
-	animation: emphasis 1.5s ease-in-out infinite;
 }
 
 ul {
