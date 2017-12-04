@@ -24,3 +24,7 @@
 	left: 0;
 	top: 0;
 }
+
+svg {
+	-moz-user-select: none;
+}

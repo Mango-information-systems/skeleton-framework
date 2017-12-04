@@ -13,6 +13,9 @@
 - Utilities
 - Clearing
 - Media Queries
+- Alcove full width sections
+- Alcove language picker
+- Alcove SVG
 */
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -483,6 +486,10 @@ body {
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #ddd;
   background-color: black;
+}
+
+footer {
+  border-top: 2px solid #333;
 }
 
 .container {
@@ -1724,7 +1731,34 @@ section.alternate a {
 .alternate input[type="reset"].button-primary:hover,
 .alternate input[type="button"].button-primary:hover {
 	border: 1px solid #BBB;
+}
 
+.alternate .button:hover,
+.alternate button:hover,
+.alternate input[type="submit"]:hover,
+.alternate input[type="reset"]:hover,
+.alternate input[type="button"]:hover,
+.alternate .button:focus,
+.alternate button:focus,
+.alternate input[type="submit"]:focus,
+.alternate input[type="reset"]:focus,
+.alternate input[type="button"]:focus {
+	color: white;
+	background-color: rgba(30, 30, 30, .75);
+	outline: 0;
+}
+
+.alternate input[type="email"],
+.alternate input[type="date"],
+.alternate input[type="text"],
+.alternate input[type="tel"],
+.alternate input[type="url"],
+.alternate input[type="password"],
+.alternate input[type="number"],
+.alternate input[type="search"],
+.alternate select,
+.alternate textarea {
+	border-color: #888;
 }
 
 /* Section background images  */
@@ -1801,4 +1835,8 @@ section.alternate a {
 	width: 100%;
 	left: 0;
 	top: 0;
+}
+
+svg {
+	-moz-user-select: none;
 }

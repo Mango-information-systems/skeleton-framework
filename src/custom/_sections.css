@@ -44,8 +44,37 @@ section.alternate a {
 .alternate input[type="reset"].button-primary:hover,
 .alternate input[type="button"].button-primary:hover {
 	border: 1px solid #BBB;
-
 }
+
+.alternate .button:hover,
+.alternate button:hover,
+.alternate input[type="submit"]:hover,
+.alternate input[type="reset"]:hover,
+.alternate input[type="button"]:hover,
+.alternate .button:focus,
+.alternate button:focus,
+.alternate input[type="submit"]:focus,
+.alternate input[type="reset"]:focus,
+.alternate input[type="button"]:focus {
+	color: white;
+	background-color: rgba(30, 30, 30, .75);
+	outline: 0;
+}
+
+
+.alternate input[type="email"],
+.alternate input[type="date"],
+.alternate input[type="text"],
+.alternate input[type="tel"],
+.alternate input[type="url"],
+.alternate input[type="password"],
+.alternate input[type="number"],
+.alternate input[type="search"],
+.alternate select,
+.alternate textarea {
+	border-color: var(--button-border-color-enter);
+}
+
 
 /* Section background images  */
 

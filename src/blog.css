@@ -1,0 +1,8 @@
+/* Table of contents
+- Default reveal css
+- Alcove Reveal theme
+*/
+
+@import "core/_root.css";
+@import "../../node_modules/reveal.js/css/reveal.css";
+@import "custom/reveal-theme.css";

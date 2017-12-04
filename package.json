@@ -14,7 +14,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "cp": "cp dist/skeleton.min.css ../themes/alcove/source/css/",
+    "cp": "cp dist/skeleton.min.css ../themes/alcove/source/css/ && cp dist/blog.min.css ../themes/alcove/source/css/",
     "start": "npm run watch & npm run serve",
     "build": "node index && npm run cp",
     "watch": "npm-scripts-watcher",

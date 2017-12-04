@@ -4,3 +4,4 @@
 var build = require('skeleton-postcss');
 
 build('src/skeleton.css', 'dist/skeleton.css', 'dist/skeleton.min.css');
+build('src/blog.css', 'dist/blog.css', 'dist/blog.min.css');
