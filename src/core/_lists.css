@@ -20,10 +20,6 @@ ol ul {
   font-size: 90%;
 }
 
-li {
-  margin-bottom: 1rem;
-}
-
 .list-inline > li {
   display: inline-block;
   padding-right: .2rem;

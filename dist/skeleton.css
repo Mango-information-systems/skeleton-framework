@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 0/3/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 2/12/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -492,7 +492,16 @@ footer {
   border-top: 2px solid #333;
 }
 
+.small {
+  font-size: 80%;
+}
+
+.strong {
+  font-weight: bold;
+}
+
 .container {
+  margin-right: auto;
   margin-left: auto;
   width: 100%;
   max-width: 1200px;
@@ -500,7 +509,6 @@ footer {
   padding-right: 0.5rem;
   /* center content vertically and horizontally (full page sections) */
   text-align: center;
-  display: table-cell;
   vertical-align: middle;
   position:relative;
 }
@@ -1038,7 +1046,7 @@ input[type="button"] {
   display: inline-block;
   height: 2.5rem;
   padding: 0 1.9rem;
-  color: #555;
+  color: #ddd;
   text-align: center;
   font-weight: 600;
   line-height: 2.5rem;
@@ -1062,7 +1070,7 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #333;
+  color: #fff;
   border-color: #888;
   outline: 0;
 }
@@ -1072,7 +1080,7 @@ button:active,
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active {
-  color: #222;
+  color: #eee;
   border-color: #222;
 }
 
@@ -1355,10 +1363,6 @@ ol ol,
 ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%;
-}
-
-li {
-  margin-bottom: 1rem;
 }
 
 .list-inline > li {
@@ -1788,7 +1792,15 @@ section.alternate a {
 	}
 }
 
-.language-picker {
+#brandLogo {
+	position: absolute;
+	top: 0px;
+	left: 2rem;
+	width: 12rem;
+	margin-top: -2.5rem;
+}
+
+#language-picker {
 	position: absolute;
 	top: 0px;
 	right: 2rem;

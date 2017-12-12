@@ -23,3 +23,11 @@ body {
 footer {
   border-top: 2px solid #333;
 }
+
+.small {
+  font-size: 80%;
+}
+
+.strong {
+  font-weight: bold;
+}
