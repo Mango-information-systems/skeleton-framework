@@ -1,9 +1,17 @@
 #language-picker {
-	position: absolute;
-	top: 0px;
-	right: 2rem;
-	margin-top: -3.75rem;
+	margin-top: -4rem;
 }
+
+@media (min-width: 400px) {
+	/* Larger than mobile */
+	#language-picker {
+		position: absolute;
+		top: 0px;
+		right: 2rem;
+		margin-top: -4rem;
+	}
+}
+
 .lang {
 	padding: 0 .5rem;
 	border: 1px solid #222;

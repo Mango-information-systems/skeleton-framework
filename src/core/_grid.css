@@ -1,13 +1,16 @@
 .container {
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
+  margin: 0 auto!important;
   max-width: var(--max-width);
   padding-left: calc(var(--gutter) / 2);
   padding-right: calc(var(--gutter) / 2);
+}
+
+.section-inner {
   /* center content vertically and horizontally (full page sections) */
+  display: table-cell;
   text-align: center;
   vertical-align: middle;
+  margin: 0 auto !important;
   position:relative;
 }
 

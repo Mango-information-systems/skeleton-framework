@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 2/12/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 5/15/2017 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -501,15 +501,18 @@ footer {
 }
 
 .container {
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
+  margin: 0 auto!important;
   max-width: 1200px;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.section-inner {
   /* center content vertically and horizontally (full page sections) */
+  display: table-cell;
   text-align: center;
   vertical-align: middle;
+  margin: 0 auto !important;
   position:relative;
 }
 
@@ -1792,19 +1795,39 @@ section.alternate a {
 	}
 }
 
-#brandLogo {
-	position: absolute;
-	top: 0px;
-	left: 2rem;
+#brandLogo img{
 	width: 12rem;
-	margin-top: -2.5rem;
+	margin-top: 2.5rem;
+}
+
+@media (min-width: 400px) {
+	/* Larger than mobile - prevent overlap between logo and languages picker on small screens*/
+	
+	#brandLogo {
+		position: absolute;
+		top: 0px;
+		left: 2rem;
+		width: 12rem;
+		margin-top: -3rem;
+	}
+	
+	#brandLogo img{
+		margin-top: 0;
+	}
 }
 
 #language-picker {
-	position: absolute;
-	top: 0px;
-	right: 2rem;
-	margin-top: -3.75rem;
+	margin-top: -4rem;
+}
+
+@media (min-width: 400px) {
+	/* Larger than mobile */
+	#language-picker {
+		position: absolute;
+		top: 0px;
+		right: 2rem;
+		margin-top: -4rem;
+	}
 }
 
 .lang {
