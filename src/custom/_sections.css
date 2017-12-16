@@ -11,12 +11,25 @@
 section {
 	width: 100%;
 	min-height: 30%;
-	padding: 4rem 7%;
+	padding: 4rem 1rem;
 	display: table;
 	margin: 0;
 }
 
 
+@media (min-width: 720px) {
+  /* Larger than tablet */
+	section {
+		padding: 4rem 10%;
+	}
+}
+
+@media (min-width: 1200px) {
+  /* Larger than Desktop HD */
+	section {
+		padding: 4rem 13%;
+	}
+}
 
 /* Alternate section color scheme  */
 
