@@ -38,7 +38,7 @@
   --primary-button-font-color-active: black;
   --primary-button-font-color-disabled: #222;
 
-  --primary-button-background-color: rgba(255, 255, 255, .75);
+  --primary-button-background-color: rgba(255, 255, 255, .95);
   --primary-button-background-color-enter: white;
   --primary-button-background-color-active: white;
   --primary-button-background-color-disabled: #aaa;
