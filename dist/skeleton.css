@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 1/9/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 2/16/2018 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -636,6 +636,10 @@ cite a {
   font-size: 80%;
 }
 
+.text-large {
+  font-size: 2rem;
+}
+
 .button,
 button,
 input[type="submit"],
@@ -1260,7 +1264,8 @@ table.u-full-width.pricing-table {
 }
 
 .pricing-table thead th {
-	background-color: rgb(71,69,70); /* taken from the logo */
+	background-color: #666;
+	border: 1px solid #888;
 	color: #fff;
 	text-align: center;
 	font-weight: 400;
@@ -1268,19 +1273,7 @@ table.u-full-width.pricing-table {
 }
 
 .pricing-table thead th.primary {
-	background-color: #f60; /* taken from the logo */
-}
-
-.pricing-table thead th.large {
-	background-color: #474546;
-}
-
-.pricing-table thead th.medium {
-	background-color: #666;
-}
-
-.pricing-table thead th.small {
-	background-color: #999;
+	background-color: #f60;
 }
 
 .pricing-table thead th.alternate {
