@@ -52,6 +52,17 @@ section.alternate a {
 	border: 1px solid #BBB;
 }
 
+
+
+.alternate .button.button-primary,
+.alternate button.button-primary,
+.alternate input[type="submit"].button-primary,
+.alternate input[type="reset"].button-primary,
+.alternate input[type="button"].button-primary {
+	color: white;
+	background-color: #222;
+}
+
 .alternate .button.button-primary:hover,
 .alternate button.button-primary:hover,
 .alternate input[type="submit"].button-primary:hover,
