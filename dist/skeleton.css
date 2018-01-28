@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 1/27/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 0/28/2018 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -488,20 +488,27 @@ body {
   background-color: black;
 }
 
-footer {
-  border-top: 2px solid #333;
+.small {
+  font-size: 80%;
+}
+
+.strong {
+  font-weight: bold;
 }
 
 .container {
-  margin-left: auto;
-  width: 100%;
+  margin: 0 auto!important;
   max-width: 1200px;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.section-inner {
   /* center content vertically and horizontally (full page sections) */
-  text-align: center;
   display: table-cell;
+  text-align: center;
   vertical-align: middle;
+  margin: 0 auto !important;
   position:relative;
 }
 
@@ -947,37 +954,37 @@ h6 {
 }
 
 h1 {
-  font-size: 3.6rem;
+  font-size: 3.4rem;
   line-height: 1.2;
   letter-spacing: -0.1rem;
 }
 
 h2 {
-  font-size: 3.0rem;
+  font-size: 2.6rem;
   line-height: 1.25;
   letter-spacing: -0.1rem;
 }
 
 h3 {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   line-height: 1.3;
   letter-spacing: -0.1rem;
 }
 
 h4 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.35;
   letter-spacing: -0.08rem;
 }
 
 h5 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.5;
   letter-spacing: -0.05rem;
 }
 
 h6 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   letter-spacing: 0;
 }
@@ -1038,7 +1045,7 @@ input[type="button"] {
   display: inline-block;
   height: 2.5rem;
   padding: 0 1.9rem;
-  color: #555;
+  color: #ddd;
   text-align: center;
   font-weight: 600;
   line-height: 2.5rem;
@@ -1048,6 +1055,7 @@ input[type="button"] {
   background-color: transparent;
   border-radius: 4px;
   border: 1px solid #BBB;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   cursor: pointer;
   transition: border 0.2s;
 }
@@ -1062,7 +1070,7 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #333;
+  color: #fff;
   border-color: #888;
   outline: 0;
 }
@@ -1072,7 +1080,7 @@ button:active,
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active {
-  color: #222;
+  color: #eee;
   border-color: #222;
 }
 
@@ -1098,8 +1106,18 @@ input[type="reset"].button-primary,
 input[type="button"].button-primary {
   border: 1px solid white;
   color: black;
-  background-color: rgba(255, 255, 255, .75);
+  background-color: rgba(255, 255, 255, .95);
   transition: background-color 0.2s;
+}
+
+.button.button-lg,
+button.button-lg,
+input[type="submit"].button-lg,
+input[type="reset"].button-lg,
+input[type="button"].button-lg {
+  font-size: 1.6rem;
+  padding-top: .3rem;
+  height: 3rem;
 }
 
 .button.button-primary:hover,
@@ -1335,24 +1353,6 @@ label > .label-body {
   font-weight: normal;
 }
 
-@-webkit-keyframes emphasis {
-	0%   { -webkit-transform:translate(0, 0); opacity: 0;  }
-	50%  { opacity: 1;  }
-	100% { -webkit-transform:translate(1rem, 0); opacity: 0; }
-}
-
-@keyframes emphasis {
-	0%   { -webkit-transform:translate(0, 0); transform:translate(0, 0); opacity: 0;  }
-	50%  { opacity: 1;  }
-	100% { -webkit-transform:translate(1rem, 0); transform:translate(1rem, 0); opacity: 0; }
-}
-
-.cta-focus {
-	margin-right: 1rem;
-	-webkit-animation: emphasis 1.5s ease-in-out infinite;
-	animation: emphasis 1.5s ease-in-out infinite;
-}
-
 ul {
   list-style: circle inside;
 }
@@ -1373,10 +1373,6 @@ ol ol,
 ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%;
-}
-
-li {
-  margin-bottom: 1rem;
 }
 
 .list-inline > li {
@@ -1422,6 +1418,10 @@ a.card:active {
   border-color: #8A8A8A;
   -webkit-transform: translateX(-2px) translateY(-2px);
           transform: translateX(-2px) translateY(-2px);
+}
+
+.alternate .card {
+	background-color: rgba(255, 255, 255, .8);
 }
 
 code {
@@ -1619,6 +1619,10 @@ p {
   text-align: left !important;
 }
 
+.u-text-justify {
+  text-align: justify !important;
+}
+
 .u-text-hide {
   font: 0/0 a;
   color: transparent;
@@ -1714,9 +1718,24 @@ hr {
 section {
 	width: 100%;
 	min-height: 30%;
-	padding: 4rem 7%;
+	padding: 4rem 1rem;
 	display: table;
 	margin: 0;
+	border-top: 1px solid #333;
+}
+
+@media (min-width: 720px) {
+  /* Larger than tablet */
+	section {
+		padding: 4rem 10%;
+	}
+}
+
+@media (min-width: 1200px) {
+  /* Larger than Desktop HD */
+	section {
+		padding: 4rem 13%;
+	}
 }
 
 /* Alternate section color scheme  */
@@ -1735,8 +1754,25 @@ section.alternate a {
 .alternate input[type="submit"],
 .alternate input[type="reset"],
 .alternate input[type="button"] {
+	color: black;
+	border: 1px solid #BBB;
+}
+
+.alternate .button.button-primary,
+.alternate button.button-primary,
+.alternate input[type="submit"].button-primary,
+.alternate input[type="reset"].button-primary,
+.alternate input[type="button"].button-primary {
 	color: white;
-	background-color: rgba(0, 0, 0, .75);
+	background-color: #222;
+}
+
+.alternate .button.button-primary:hover,
+.alternate button.button-primary:hover,
+.alternate input[type="submit"].button-primary:hover,
+.alternate input[type="reset"].button-primary:hover,
+.alternate input[type="button"].button-primary:hover {
+	border: 1px solid #BBB;
 }
 
 .alternate .button:hover,
@@ -1794,11 +1830,39 @@ section.alternate a {
 	}
 }
 
-.language-picker {
-	position: absolute;
-	top: 0px;
-	right: 2rem;
-	margin-top: -3.75rem;
+#brandLogo img{
+	width: 12rem;
+	margin-top: 2.5rem;
+}
+
+@media (min-width: 400px) {
+	/* Larger than mobile - prevent overlap between logo and languages picker on small screens*/
+	
+	#brandLogo {
+		position: absolute;
+		top: 0px;
+		left: 2rem;
+		width: 12rem;
+		margin-top: -3rem;
+	}
+	
+	#brandLogo img{
+		margin-top: 0;
+	}
+}
+
+#language-picker {
+	margin-top: -4rem;
+}
+
+@media (min-width: 400px) {
+	/* Larger than mobile */
+	#language-picker {
+		position: absolute;
+		top: 0px;
+		right: 2rem;
+		margin-top: -4rem;
+	}
 }
 
 .lang {

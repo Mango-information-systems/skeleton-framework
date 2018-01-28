@@ -21,9 +21,9 @@
   --background-color-alternate: white;
   --text-color-alternate: #222;
 
-  --button-font-color: #555;
-  --button-font-color-enter: #333;
-  --button-font-color-active: #222;
+  --button-font-color: #ddd;
+  --button-font-color-enter: #fff;
+  --button-font-color-active: #eee;
   --button-font-color-disabled: #888;
 
   --button-background-color: transparent;
@@ -38,7 +38,7 @@
   --primary-button-font-color-active: black;
   --primary-button-font-color-disabled: #222;
 
-  --primary-button-background-color: rgba(255, 255, 255, .75);
+  --primary-button-background-color: rgba(255, 255, 255, .95);
   --primary-button-background-color-enter: white;
   --primary-button-background-color-active: white;
   --primary-button-background-color-disabled: #aaa;

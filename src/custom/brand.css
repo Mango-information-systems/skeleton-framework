@@ -1,0 +1,21 @@
+
+#brandLogo img{
+	width: 12rem;
+	margin-top: 2.5rem;
+}
+
+@media (min-width: 400px) {
+	/* Larger than mobile - prevent overlap between logo and languages picker on small screens*/
+	
+	#brandLogo {
+		position: absolute;
+		top: 0px;
+		left: 2rem;
+		width: 12rem;
+		margin-top: -3rem;
+	}
+	
+	#brandLogo img{
+		margin-top: 0;
+	}
+}

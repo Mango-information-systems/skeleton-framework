@@ -11,12 +11,26 @@
 section {
 	width: 100%;
 	min-height: 30%;
-	padding: 4rem 7%;
+	padding: 4rem 1rem;
 	display: table;
 	margin: 0;
+	border-top: 1px solid #333;
 }
 
 
+@media (min-width: 720px) {
+  /* Larger than tablet */
+	section {
+		padding: 4rem 10%;
+	}
+}
+
+@media (min-width: 1200px) {
+  /* Larger than Desktop HD */
+	section {
+		padding: 4rem 13%;
+	}
+}
 
 /* Alternate section color scheme  */
 
@@ -34,8 +48,27 @@ section.alternate a {
 .alternate input[type="submit"],
 .alternate input[type="reset"],
 .alternate input[type="button"] {
+	color: black;
+	border: 1px solid #BBB;
+}
+
+
+
+.alternate .button.button-primary,
+.alternate button.button-primary,
+.alternate input[type="submit"].button-primary,
+.alternate input[type="reset"].button-primary,
+.alternate input[type="button"].button-primary {
 	color: white;
-	background-color: rgba(0, 0, 0, .75);
+	background-color: #222;
+}
+
+.alternate .button.button-primary:hover,
+.alternate button.button-primary:hover,
+.alternate input[type="submit"].button-primary:hover,
+.alternate input[type="reset"].button-primary:hover,
+.alternate input[type="button"].button-primary:hover {
+	border: 1px solid #BBB;
 }
 
 .alternate .button:hover,
