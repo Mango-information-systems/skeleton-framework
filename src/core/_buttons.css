@@ -131,13 +131,14 @@ input[type="button"].button-primary:active {
 }
 
 .button.button-primary:disabled,
+.button.button-primary.disabled,
 button.button-primary:disabled,
 input[type="submit"].button-primary:disabled,
 input[type="reset"].button-primary:disabled,
 input[type="button"].button-primary:disabled {
   color: var(--primary-button-font-color-disabled);
   cursor: not-allowed;
-  background-color: var(--primary-button-background-color-disabled);
+  background-color: var(--primary-button-border-color-disabled);
   border-color: var(--primary-button-border-color-disabled);
 }
 

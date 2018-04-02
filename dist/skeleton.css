@@ -762,14 +762,15 @@ input[type="button"].button-primary:active {
 }
 
 .button.button-primary:disabled,
+.button.button-primary.disabled,
 button.button-primary:disabled,
 input[type="submit"].button-primary:disabled,
 input[type="reset"].button-primary:disabled,
 input[type="button"].button-primary:disabled {
   color: #FFF;
   cursor: not-allowed;
-  background-color: #ff7a00;
-  border-color: #ff7a00;
+  background-color: #CC7134;
+  border-color: #CC7134;
 }
 
 .button.button-success,

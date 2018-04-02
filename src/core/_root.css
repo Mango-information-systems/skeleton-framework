@@ -41,12 +41,12 @@
   --primary-button-background-color: #ff6600;
   --primary-button-background-color-enter: #ff6600;
   --primary-button-background-color-active: #e85d00;
-  --primary-button-background-color-disabled: #ff7a00;
+  --primary-button-background-color-disabled: #CC7134;
 
   --primary-button-border: 1px solid #ff6600;
   --primary-button-border-color-enter: #ff6600;
   --primary-button-border-color-active: #e85d00;
-  --primary-button-border-color-disabled: #ff7a00;
+  --primary-button-border-color-disabled: #CC7134;
 
   --success-button-font-color: #FFF;
   --success-button-font-color-enter: #FFF;
