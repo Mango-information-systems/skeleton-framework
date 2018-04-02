@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 2/16/2018 */
+/*! skeleton-framework | 1.1.1 | MIT | 1/2/2018 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1107,8 +1107,8 @@ pre > code {
 .alert {
   width: 100%;
   border-radius: 4px;
-  border: 1px solid #000;
-  color: #000;
+  border: 1px solid #333;
+  color: #333;
   background-color: #FFF;
   padding: 10px 15px;
 }

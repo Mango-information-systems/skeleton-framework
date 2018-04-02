@@ -88,8 +88,8 @@
   --code-background: #F1F1F1;
   --code-border: 1px solid #E1E1E1;
 
-  --alert-font-color: #000;
-  --alert-border: 1px solid #000;
+  --alert-font-color: #333;
+  --alert-border: 1px solid #333;
   --alert-background-color: #FFF;
 
   --alert-primary-font-color: #FFF;
