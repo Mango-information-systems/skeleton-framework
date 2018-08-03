@@ -61,14 +61,6 @@ footer a.active {
   border: none;
 }
 
-@media (min-width: 1200px) {
-  /* Larger than Desktop HD */
-	.reference blockquote {
-	  font-size: 1.1rem;
-	  line-height: 1.6rem;
-	}
-}
-
 .client-logo {
   margin-bottom: 4rem;
 }
