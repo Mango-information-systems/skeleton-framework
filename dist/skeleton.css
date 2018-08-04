@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 5/3/2018 */
+/*! skeleton-framework | 1.1.1 | MIT | 6/4/2018 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -59,6 +59,15 @@ footer
   margin-left: auto;
   width: 100%;
   max-width: 960px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.container-wide {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-width: 1200px;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
