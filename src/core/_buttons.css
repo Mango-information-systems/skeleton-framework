@@ -249,8 +249,8 @@ button.button-sm,
 input[type="submit"].button-sm,
 input[type="reset"].button-sm,
 input[type="button"].button-sm {
-  height: 1.75rem;
-  padding: 0 .5rem;
+  height: auto;
+  padding: .1rem .5rem;
   font-size: .6rem;
   line-height: 1.2rem;
 }
