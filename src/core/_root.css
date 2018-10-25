@@ -6,8 +6,7 @@
   --max-width-wide: 1200px;
   --gutter: 1rem;
 
-  --font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --titles-font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
 
   --background-color: #fff;
   --font-color: #222;
