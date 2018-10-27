@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 4/25/2018 */
+/*! skeleton-framework | 1.1.1 | MIT | 6/27/2018 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -16,7 +16,7 @@
 */
 
 html {
-  font-size: 1rem;
+  font-size: 1.2rem;
   box-sizing: border-box;
   height: 100%;
 }
@@ -497,6 +497,7 @@ h4,
 h5,
 h6,
 thead th {
+  font-family: "Segoe UI", "Helvetica Neue", "Helvetica", "Lucida Grande", Arial, "Ubuntu", "Cantarell", "Fira Sans", sans-serif;
   font-weight: 300;
 }
 
