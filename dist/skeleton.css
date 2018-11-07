@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 6/27/2018 */
+/*! skeleton-framework | 1.1.1 | MIT | 3/7/2018 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -16,7 +16,7 @@
 */
 
 html {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   box-sizing: border-box;
   height: 100%;
 }
@@ -498,7 +498,7 @@ h5,
 h6,
 thead th {
   font-family: "Segoe UI", "Helvetica Neue", "Helvetica", "Lucida Grande", Arial, "Ubuntu", "Cantarell", "Fira Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h1,
@@ -566,7 +566,7 @@ h6 {
 
   h1.small {
     font-size: 1.8rem;
-    line-height: 1.2;
+    line-height: 1;
   }
 
   h2 {
@@ -1062,7 +1062,7 @@ li {
 }
 
 .card h3 {
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	color: black;
 }
 
@@ -1514,10 +1514,7 @@ footer a.active {
 
 .profile-photo {
   margin-bottom: 1rem;
-  margin-left: 1rem;
   border: 1px solid #aaa;
-  background-origin: content-box;
-  box-shadow: 0 4px 2px rgba(0, 0, 0, 0.3);
 }
 
 /* Clearing */
