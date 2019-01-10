@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 5/29/2017 */
+/*! skeleton-framework | 1.1.1 | MIT | 4/10/2019 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -559,6 +559,10 @@ body {
 .xs-four[class*='column'],
 .xs-one-third[class*='column'] {
   width: 33.3333333332%;
+}
+
+.xs-offset-by-four[class*='column'] {
+  margin-left: 33.3333333332%;
 }
 
 .xs-five[class*='column'] {

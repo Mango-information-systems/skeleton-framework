@@ -62,6 +62,9 @@
 .xs-one-third[class*='column'] {
   width: calc((var(--column-width) * 4));
 }
+.xs-offset-by-four[class*='column'] {
+  margin-left: calc((var(--column-width) * 4));
+}
 
 .xs-five[class*='column'] {
   width: calc((var(--column-width) * 5));
