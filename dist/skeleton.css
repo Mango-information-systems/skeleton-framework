@@ -1125,6 +1125,16 @@ input[type="button"].button-primary {
   transition: background-color 0.2s;
 }
 
+.button.button-lg,
+button.button-lg,
+input[type="submit"].button-lg,
+input[type="reset"].button-lg,
+input[type="button"].button-lg {
+  font-size: 1.2rem;
+  padding-top: .3rem;
+  height: 3rem;
+}
+
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -1761,6 +1771,15 @@ section.alternate a {
 .alternate input[type="button"] {
 	color: black;
 	border: 1px solid #BBB;
+}
+
+.alternate .button.button-primary,
+.alternate button.button-primary,
+.alternate input[type="submit"].button-primary,
+.alternate input[type="reset"].button-primary,
+.alternate input[type="button"].button-primary {
+	color: white;
+	background-color: #222;
 }
 
 .alternate .button.button-primary:hover,
