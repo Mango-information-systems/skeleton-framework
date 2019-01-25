@@ -43,6 +43,9 @@
   --primary-button-background-color-active: white;
   --primary-button-background-color-disabled: #aaa;
 
+  --primary-button-background-color-alternate: black;
+  
+  
   --primary-button-border: 1px solid white;
   --primary-button-border-color-enter: white;
   --primary-button-border-color-active: black;

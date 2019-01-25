@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 4/10/2019 */
+/*! skeleton-framework | 1.1.1 | MIT | 5/25/2019 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1111,6 +1111,17 @@ input[type="button"].button-primary {
   border: 1px solid white;
   color: black;
   background-color: rgba(255, 255, 255, .95);
+  transition: background-color 0.2s;
+}
+
+.alternate .button.button-primary,
+.alternate button.button-primary,
+.alternate input[type="submit"].button-primary,
+.alternate input[type="reset"].button-primary,
+.alternate input[type="button"].button-primary {
+  border: 1px solid #BBB;
+  color: #ddd;
+  background-color: black;
   transition: background-color 0.2s;
 }
 

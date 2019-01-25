@@ -79,6 +79,21 @@ input[type="button"].button-primary {
   transition: background-color 0.2s;
 }
 
+.alternate .button.button-primary,
+.alternate button.button-primary,
+.alternate input[type="submit"].button-primary,
+.alternate input[type="reset"].button-primary,
+.alternate input[type="button"].button-primary {
+  border: var(--button-border);
+  color: var(--button-font-color);
+  background-color: var(--primary-button-background-color-alternate);
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  -ms-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
