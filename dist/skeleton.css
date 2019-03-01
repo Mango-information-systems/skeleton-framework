@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 4/29/2016 */
+/*! skeleton-framework | 1.1.1 | MIT | 5/1/2019 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -266,6 +266,9 @@ section {
   .sm-twelve[class*='column'] {
     width: 99.9999999996%;
   }
+  .sm-offset-by-zero[class*='column'] {
+    margin-left: 0;
+  }
   .sm-offset-by-one[class*='column'] {
     margin-left: 8.3333333333%;
   }
@@ -345,6 +348,9 @@ section {
   }
   .md-twelve[class*='column'] {
     width: 99.9999999996%;
+  }
+  .md-offset-by-zero[class*='column'] {
+    margin-left: 0;
   }
   .md-offset-by-one[class*='column'] {
     margin-left: 8.3333333333%;
@@ -426,6 +432,9 @@ section {
   .lg-twelve[class*='column'] {
     width: 99.9999999996%;
   }
+  .lg-offset-by-zero[class*='column'] {
+    margin-left: 0;
+  }
   .lg-offset-by-one[class*='column'] {
     margin-left: 8.3333333333%
   }
@@ -465,8 +474,7 @@ section {
   }
 }
 
-/* Base Typo
- ------------------------------------------------- */
+/* Base Typo */
 
 h1,
 h2,
@@ -482,6 +490,18 @@ h6 {
   margin-top: 0;
   margin-bottom: 1rem;
   font-weight: 300;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 2rem;
+}
+
+h4,
+h5,
+h6 {
+  margin-top: 1.5rem;
 }
 
 h1 {
@@ -549,12 +569,7 @@ h6 {
   }
 }
 
-p {
-  margin-top: 0;
-}
-
-/* Links
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Links */
 
 a {
   color: #008000;
@@ -564,8 +579,7 @@ a:hover {
   color: #005900;
 }
 
-/* Colors
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Colors */
 
 .text-primary {
  color: #027002
@@ -917,11 +931,18 @@ li {
   margin-bottom: .3rem;
 }
 
+.list-inline > li {
+  display: inline-block;
+  padding-right: .2rem;
+  padding-left: .2rem;
+  margin-bottom: .5rem;
+}
+
 /* Cards */
 
 .card {
   border: 1px solid #E1E1E1;
-  padding: 15px 25px;
+  padding: 10px 25px;
   border-radius: 4px;
   box-shadow: 1px 1px 1px #E1E1E1;
   min-height: 160px;
@@ -1063,10 +1084,7 @@ button,
 input,
 textarea,
 select,
-fieldset {
-  margin-bottom: 1.5rem;
-}
-
+fieldset,
 pre,
 blockquote,
 dl,
@@ -1076,7 +1094,11 @@ p,
 ul,
 ol,
 form {
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-top: 0;
 }
 
 .alert {
