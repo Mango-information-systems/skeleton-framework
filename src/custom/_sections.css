@@ -1,0 +1,131 @@
+/*****
+* Full width sections
+*
+*****/
+
+#page-wrapper {
+	height: 100%;
+}
+
+/*  Full width section   */
+section {
+	width: 100%;
+	min-height: 40%;
+	padding: 4rem 1rem;
+	display: table;
+	margin: 0;
+}
+
+
+@media (min-width: 720px) {
+  /* Larger than tablet */
+	section {
+		padding: 4rem 10%;
+	}
+}
+
+@media (min-width: 1200px) {
+  /* Larger than Desktop HD */
+	section {
+		padding: 4rem 13%;
+	}
+}
+
+/* Alternate section color scheme  */
+
+section.alternate {
+	background-color: var(--background-color-alternate);
+	color: var(--text-color-alternate);
+}
+
+section.alternate a {
+	color: var(--text-color-alternate);
+}
+
+.alternate .button,
+.alternate button,
+.alternate input[type="submit"],
+.alternate input[type="reset"],
+.alternate input[type="button"] {
+	color: black;
+	border: 1px solid #BBB;
+}
+
+
+
+.alternate .button.button-primary,
+.alternate button.button-primary,
+.alternate input[type="submit"].button-primary,
+.alternate input[type="reset"].button-primary,
+.alternate input[type="button"].button-primary {
+	color: white;
+	background-color: #222;
+}
+
+.alternate .button.button-primary:hover,
+.alternate button.button-primary:hover,
+.alternate input[type="submit"].button-primary:hover,
+.alternate input[type="reset"].button-primary:hover,
+.alternate input[type="button"].button-primary:hover {
+	border: 1px solid #BBB;
+}
+
+.alternate .button:hover,
+.alternate button:hover,
+.alternate input[type="submit"]:hover,
+.alternate input[type="reset"]:hover,
+.alternate input[type="button"]:hover,
+.alternate .button:focus,
+.alternate button:focus,
+.alternate input[type="submit"]:focus,
+.alternate input[type="reset"]:focus,
+.alternate input[type="button"]:focus {
+	color: white;
+	background-color: rgba(30, 30, 30, .75);
+	outline: 0;
+}
+
+
+.alternate input[type="email"],
+.alternate input[type="date"],
+.alternate input[type="text"],
+.alternate input[type="tel"],
+.alternate input[type="url"],
+.alternate input[type="password"],
+.alternate input[type="number"],
+.alternate input[type="search"],
+.alternate select,
+.alternate textarea {
+	border-color: var(--button-border-color-enter);
+}
+
+
+/* Section background images  */
+
+section:nth-child(2n+1) {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url(/img/bg.jpg);
+}
+
+
+
+@media (min-width: 560px) {
+  /* Larger than phablet (also point when grid becomes active) */
+	section {
+		background-attachment: fixed;
+	}
+}
+
+
+/* fix jumpy background image on IE... :/ */
+@media all and (-ms-high-contrast:none)
+{
+	section {
+		background-attachment: scroll;
+	}
+	*::-ms-backdrop, section {
+		background-attachment: scroll;
+	}
+}
