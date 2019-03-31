@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 2/13/2018 */
+/*! skeleton-framework | 1.1.1 | MIT | 0/31/2019 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -557,6 +557,12 @@ h6 {
   letter-spacing: 0;
 }
 
+li h5 {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+
+}
+
 /* Larger than phablet */
 
 @media (min-width: 560px) {
@@ -659,7 +665,6 @@ input[type="button"] {
   border-radius: 4px;
   border: 1px solid #BBB;
   cursor: pointer;
-  -webkit-transition: border 0.2s;
   transition: border 0.2s;
 }
 
@@ -737,7 +742,6 @@ input[type="button"].button-primary {
   border: 1px solid #ff6600;
   color: #FFF;
   background-color: #ff6600;
-  -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
 
@@ -786,7 +790,6 @@ input[type="button"].button-success {
   border: 1px solid #2ecc71;
   color: #FFF;
   background-color: #2ecc71;
-  -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
 
@@ -834,7 +837,6 @@ input[type="button"].button-danger {
   border: 1px solid #e74c3c;
   color: #FFF;
   background-color: #e74c3c;
-  -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
 
@@ -900,7 +902,6 @@ select {
   border: 1px solid #D1D1D1;
   border-radius: 4px;
   box-shadow: none;
-  -webkit-transition: border 0.2s;
   transition: border 0.2s;
 }
 
@@ -1074,17 +1075,13 @@ a.card {
   display: block;
   color: #757575;
   text-decoration: none;
-  -webkit-transition: color .3s, border-color .3s, -webkit-transform .3s;
-  transition: color .3s, border-color .3s, -webkit-transform .3s;
   transition: color .3s, transform .3s, border-color .3s;
-  transition: color .3s, transform .3s, border-color .3s, -webkit-transform .3s;
 }
 
 a.card:hover,
 a.card:active {
   border-color: #8A8A8A;
-  -webkit-transform: translateX(1px) translateY(1px);
-          transform: translateX(1px) translateY(1px);
+  transform: translateX(1px) translateY(1px);
 }
 
 code {
@@ -1393,8 +1390,7 @@ but not required on another, the old offset remains
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translateY(-50%) translateX(-50%);
-          transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
 }
 
 /* Type */
