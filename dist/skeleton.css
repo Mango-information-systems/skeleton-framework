@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 0/31/2019 */
+/*! skeleton-framework | 1.1.1 | MIT | 2/2/2019 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1082,6 +1082,10 @@ a.card:hover,
 a.card:active {
   border-color: #8A8A8A;
   transform: translateX(1px) translateY(1px);
+}
+
+pre, code {
+  font-family: "SFMono-Regular", "DejaVu Sans Mono", "Liberation Mono", "Menlo", "Consolas", "Courier new", Courier, monospace;
 }
 
 code {
