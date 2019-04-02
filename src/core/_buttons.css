@@ -7,7 +7,7 @@ input[type="button"] {
   padding: 0 1rem;
   color: var(--button-font-color);
   text-align: center;
-  font-size: .8rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.6rem;
   text-decoration: none;
