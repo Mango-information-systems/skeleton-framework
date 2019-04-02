@@ -68,6 +68,12 @@ h6 {
 }
 
 
+li h5 {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+
+}
+
 /* Larger than phablet */
 
 @media (min-width: 560px) {
@@ -147,7 +153,6 @@ cite a {
 .small {
   font-size: 80%;
 }
-
 
 
 .text-large {
