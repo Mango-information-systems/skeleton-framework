@@ -10,9 +10,19 @@
   white-space: nowrap;
   background-color: var(--badge-background-color);
   border-radius: var(--border-radius);
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  -ms-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+  transition: background-color 0.2s;
 }
 
 .badge-success {
   color: var(--success-button-font-color-disabled);
   background-color: var(--success-button-background-color-disabled);
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  -ms-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+  transition: background-color 0.2s;
 }
