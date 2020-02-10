@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 5/7/2020 */
+/*! skeleton-framework | 1.1.1 | MIT | 1/10/2020 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1300,4 +1300,23 @@ text {
 	background-size: 100px 100px;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.badge {
+  display: inline-block;
+  margin: 0 .5rem;
+  padding: .1rem .3rem;
+  color: #555;
+  text-align: center;
+  font-size: .9rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  white-space: nowrap;
+  background-color: #eaeaea;
+  border-radius: 4px;
+}
+
+.badge-success {
+  color: #FFF;
+  background-color: #82e3aa;
 }

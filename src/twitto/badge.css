@@ -1,0 +1,18 @@
+.badge {
+  display: inline-block;
+  margin: 0 .5rem;
+  padding: .1rem .3rem;
+  color: var(--button-font-color);
+  text-align: center;
+  font-size: .9rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  white-space: nowrap;
+  background-color: var(--badge-background-color);
+  border-radius: var(--border-radius);
+}
+
+.badge-success {
+  color: var(--success-button-font-color-disabled);
+  background-color: var(--success-button-background-color-disabled);
+}
