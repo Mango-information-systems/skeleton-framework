@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 1/10/2020 */
+/*! skeleton-framework | 1.1.1 | MIT | 3/12/2020 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -31,7 +31,7 @@ body {
   font-size: 1rem;
   line-height: 1.6rem;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   color: #222;
 }
 
@@ -478,10 +478,19 @@ section {
 
 h1,
 h2,
+h3,
+h4,
+h5,
+h6,
+thead th {
+  font-family: "Segoe UI", "Helvetica Neue", "Helvetica", "Lucida Grande", Arial, "Ubuntu", "Cantarell", "Fira Sans", sans-serif;
+}
+
+h1,
+h2,
 h3 {
   margin-top: 0;
   margin-bottom: 2rem;
-  font-weight: 300;
 }
 
 h4,
@@ -489,7 +498,6 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-weight: 300;
 }
 
 h1,
@@ -967,6 +975,10 @@ a.card:active {
   color: black;
   border-color: #8A8A8A;
   transform: translateX(-2px) translateY(-2px);
+}
+
+pre, code {
+  font-family: "SFMono-Regular", "DejaVu Sans Mono", "Liberation Mono", "Menlo", "Consolas", "Courier new", Courier, monospace;
 }
 
 code {

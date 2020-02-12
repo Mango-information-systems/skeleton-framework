@@ -5,7 +5,9 @@
   --max-width: 1600px;
   --gutter: 1rem;
 
-  --font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  --titles-font-family: "Segoe UI", "Helvetica Neue", "Helvetica", "Lucida Grande", Arial, "Ubuntu", "Cantarell", "Fira Sans", sans-serif;
+  --code-font-family: "SFMono-Regular", "DejaVu Sans Mono", "Liberation Mono", "Menlo", "Consolas", "Courier new", Courier, monospace;
 
   --background-color: #f6f6f6;
   --font-color: #222;

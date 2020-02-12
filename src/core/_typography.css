@@ -1,11 +1,19 @@
 /* Base Typo */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+thead th {
+  font-family: var(--titles-font-family);
+}
 
 h1,
 h2,
 h3 {
   margin-top: 0;
   margin-bottom: 2rem;
-  font-weight: 300;
 }
 
 h4,
@@ -13,7 +21,6 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-weight: 300;
 }
 
 h1,
