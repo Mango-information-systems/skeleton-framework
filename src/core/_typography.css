@@ -7,6 +7,7 @@ h5,
 h6,
 thead th {
   font-family: var(--titles-font-family);
+  font-weight: 400;
 }
 
 h1,
