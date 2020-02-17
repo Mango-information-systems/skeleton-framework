@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 2/14/2019 */
+/*! skeleton-framework | 1.1.1 | MIT | 1/17/2020 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1552,6 +1552,27 @@ footer a.active {
 
 @media (min-width: 1200px) {
   /* Larger than Desktop HD */
+}
+
+.badge {
+  display: inline-block;
+  margin: 0 .5rem;
+  padding: .1rem .3rem;
+  color: #555;
+  text-align: center;
+  font-size: .9rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  white-space: nowrap;
+  background-color: #eaeaea;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.badge-success {
+  color: #FFF;
+  background-color: #82e3aa;
+  transition: background-color 0.2s;
 }
 
 .modal {
