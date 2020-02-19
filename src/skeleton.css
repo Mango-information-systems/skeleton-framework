@@ -31,4 +31,4 @@
 @import "core/_queries.css";
 @import "twitto/svg.css";
 @import "twitto/loading.css";
-@import "twitto/badge.css";
+@import "core/badge.css";
