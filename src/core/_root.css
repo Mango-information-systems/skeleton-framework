@@ -2,8 +2,7 @@
 
   --total-columns: 12;
   --column-width: calc(100% / var(--total-columns));
-  --max-width: 960px;
-  --max-width-wide: 1200px;
+  --max-width: 1200px;
   --gutter: 1rem;
 
   --font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
@@ -15,8 +14,7 @@
   --opposite-background-color: #222;
   --opposite-font-color: #ddd;
 
-  --link-color: #F47216;
-  --link-color-hover: #e85d00;
+  --link-color-hover: #F47216;
 
   --text-color-primary: #F47216;
   --text-color-danger: #e74c3c;

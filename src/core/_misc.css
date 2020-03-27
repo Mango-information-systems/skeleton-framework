@@ -12,22 +12,6 @@ blockquote {
   padding-left: 2rem;
 }
 
-.tag {
-  padding: .2rem .3rem;
-  font-size: 80%;
-  background-color: #777;
-  color: white;
-  border-radius: .1rem;
-}
-
-.tag-primary, .tag-domain {
-  background-color: var(--primary-button-background-color);
-}
-
-.tag-tech {
-  background-color: var(--success-button-background-color);
-}
-
 /* Footer links and navigation */
 
 footer a, footer fa {

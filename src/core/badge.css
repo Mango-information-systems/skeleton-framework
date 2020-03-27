@@ -1,12 +1,11 @@
 .badge {
   display: inline-block;
-  margin: 0 .5rem;
-  padding: .1rem .3rem;
+  padding: 0rem .5rem;
   color: var(--button-font-color);
   text-align: center;
-  font-size: .9rem;
-  font-weight: 600;
-  letter-spacing: 0.1rem;
+  font-size: 80%;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
   white-space: nowrap;
   background-color: var(--badge-background-color);
   border-radius: var(--border-radius);
@@ -17,12 +16,21 @@
   transition: background-color 0.2s;
 }
 
-.badge-success {
-  color: var(--success-button-font-color-disabled);
-  background-color: var(--success-button-background-color-disabled);
+.badge-success, .badge-tech {
+  color: var(--success-button-font-color);
+  background-color: var(--success-button-background-color);
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
   -ms-transition: background-color 0.2s;
   -o-transition: background-color 0.2s;
   transition: background-color 0.2s;
+}
+
+.badge-primary, .badge-domain {
+  color: white;
+  background-color: var(--primary-button-background-color);
+}
+
+.badge a {
+  text-decoration: none;
 }
