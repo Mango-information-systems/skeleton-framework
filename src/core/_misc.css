@@ -12,6 +12,21 @@ blockquote {
   padding-left: 2rem;
 }
 
+
+
+/* Blog article footer */
+
+aside, .postFooter {
+  margin-top: 1.5rem;
+  margin-bottom:1.5rem;
+  color: var(--button-font-color);
+}
+
+aside a, .postFooter a {
+  color: var(--button-font-color);
+  text-decoration: underline;
+}
+
 /* Footer links and navigation */
 
 footer a, footer fa {

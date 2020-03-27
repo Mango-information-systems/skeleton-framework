@@ -32,6 +32,7 @@ footer
   margin-left: -10000px;
   padding-right: 10000px;
   margin-right: -10000px;
+  margin-top: 3rem;
   color: var(--opposite-font-color);
   background-color: var(--opposite-background-color);
   background: url("/img/bg-pattern-dark-2x.jpg") repeat fixed;
