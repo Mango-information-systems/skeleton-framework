@@ -1,0 +1,11 @@
+
+/* Blog pagination links */
+
+.page-number {
+	margin: 0 .25rem;
+}
+
+/* article thumbnail in blog index page */
+.post-thumb img {
+	margin-top: 1.5rem;
+}
