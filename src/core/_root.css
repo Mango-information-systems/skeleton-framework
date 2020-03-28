@@ -38,13 +38,13 @@
   --primary-button-font-color-active: #FFF;
   --primary-button-font-color-disabled: #FFF;
 
-  --primary-button-background-color: #ff6600;
-  --primary-button-background-color-enter: #ff6600;
+  --primary-button-background-color: #5A5758;
+  --primary-button-background-color-enter: #5A5758;
   --primary-button-background-color-active: #e85d00;
   --primary-button-background-color-disabled: #CC7134;
 
-  --primary-button-border: 1px solid #ff6600;
-  --primary-button-border-color-enter: #ff6600;
+  --primary-button-border: 1px solid #5A5758;
+  --primary-button-border-color-enter: #5A5758;
   --primary-button-border-color-active: #e85d00;
   --primary-button-border-color-disabled: #CC7134;
 
@@ -83,7 +83,7 @@
   --form-background-color: #FFF;
   --form-font-color: #222;
   --form-border: 1px solid #D1D1D1;
-  --form-border-enter: 1px solid #ff6600;
+  --form-border-enter: 1px solid #5A5758;
   --form-border-enter-error: 1px solid #e74c3c;
   --form-border-enter-success: 1px solid #2ecc71;
 
@@ -103,7 +103,7 @@
   --alert-success-background-color: #2ecc71;
 
   --alert-danger-font-color: black;
-  --alert-danger-border: 2px solid #ff6600;
+  --alert-danger-border: 2px solid #5A5758;
   --alert-danger-background-color: #fff2ed;
 
   --td-border-bottom: 1px solid #E1E1E1;
