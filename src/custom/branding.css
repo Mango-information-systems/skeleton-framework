@@ -1,7 +1,4 @@
 section a.brand img {
-	margin-top: -3rem;
-	margin-bottom: 3rem;
-	padding-top: 5rem;
 	/* don't let the logo get too small */
 	min-width: 300px;
 }
