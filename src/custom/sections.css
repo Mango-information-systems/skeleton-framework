@@ -7,11 +7,8 @@ section:first-child {
 }
 
 section {
-	padding-top: 2.5em;
-	padding-bottom:2.5em;
-	padding-left: 10000px;
+	padding: 5rem 10000px;
 	margin-left: -10000px;
-	padding-right: 10000px;
 	margin-right: -10000px;
 }
 

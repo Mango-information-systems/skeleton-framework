@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 6/28/2020 */
+/*! skeleton-framework | 1.1.1 | MIT | 1/30/2020 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1594,11 +1594,8 @@ section:first-child {
 }
 
 section {
-	padding-top: 2.5em;
-	padding-bottom:2.5em;
-	padding-left: 10000px;
+	padding: 5rem 10000px;
 	margin-left: -10000px;
-	padding-right: 10000px;
 	margin-right: -10000px;
 }
 
