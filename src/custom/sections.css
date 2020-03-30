@@ -3,14 +3,23 @@
 }
 
 section:first-child {
-	min-height: 40vh;
+	min-height: 30vh;
 }
 
 section {
-	padding: 5rem 10000px;
+	padding: 3rem 10000px;
 	margin-left: -10000px;
 	margin-right: -10000px;
 }
+
+
+@media (min-width: 1200px) {
+  /* Larger than Desktop HD */
+    section {
+	  padding: 5rem 10000px;
+    }
+}
+
 
 /* sections background images */
 

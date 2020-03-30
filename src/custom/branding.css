@@ -1,4 +1,12 @@
 section a.brand img {
+	margin-bottom: 1rem;
 	/* don't let the logo get too small */
 	min-width: 300px;
+}
+
+@media (min-width: 1200px) {
+  /* Larger than Desktop HD */
+    section a.brand img {
+	  margin-bottom: 2rem;
+    }
 }

@@ -1547,8 +1547,16 @@ footer a.active {
 }
 
 section a.brand img {
+	margin-bottom: 1rem;
 	/* don't let the logo get too small */
 	min-width: 300px;
+}
+
+@media (min-width: 1200px) {
+  /* Larger than Desktop HD */
+    section a.brand img {
+	  margin-bottom: 2rem;
+    }
 }
 
 .modal {
@@ -1584,13 +1592,20 @@ section a.brand img {
 }
 
 section:first-child {
-	min-height: 40vh;
+	min-height: 30vh;
 }
 
 section {
-	padding: 5rem 10000px;
+	padding: 3rem 10000px;
 	margin-left: -10000px;
 	margin-right: -10000px;
+}
+
+@media (min-width: 1200px) {
+  /* Larger than Desktop HD */
+    section {
+	  padding: 5rem 10000px;
+    }
 }
 
 /* sections background images */
