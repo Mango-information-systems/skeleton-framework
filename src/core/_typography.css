@@ -5,7 +5,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+thead th {
+  font-family: var(--titles-font-family);
   margin-bottom: 1rem;
   font-weight: 300;
 }
@@ -90,6 +92,10 @@ a {
 
 a:hover {
   color: var(--link-color-hover);
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 /* Colors */

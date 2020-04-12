@@ -4,14 +4,16 @@
   --column-width: calc(100% / var(--total-columns));
   --max-width: 1200px;
   --gutter: 1rem;
-  
-  --font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  --titles-font-family: "Segoe UI", "Helvetica Neue", "Helvetica", "Lucida Grande", Arial, "Ubuntu", "Cantarell", "Fira Sans", sans-serif;
+  --code-font-family: "SFMono-Regular", "DejaVu Sans Mono", "Liberation Mono", "Menlo", "Consolas", "Courier new", Courier, monospace;
 
   --background-color: #fff;
   --font-color: #222;
 
   --link-color: #2a497f;
-  --link-color-hover: #0FA0CE;
+  --link-color-hover: #157b9b;
 
   --text-color-primary: #2a497f;
   --text-color-danger: #e74c3c;
