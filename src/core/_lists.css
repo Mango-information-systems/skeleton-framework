@@ -1,5 +1,5 @@
 ul {
-  list-style: circle inside;
+  list-style: disc inside;
 }
 
 ol {
@@ -16,17 +16,15 @@ ul ul,
 ul ol,
 ol ol,
 ol ul {
-  margin: 1.5rem 0 1.5rem 3rem;
-  font-size: 90%;
+  margin: 1rem 0 1rem 2rem;
 }
 
 li {
-  margin-bottom: 1rem;
+  margin-bottom: .25rem;
 }
 
 .list-inline > li {
   display: inline-block;
   padding-right: .2rem;
   padding-left: .2rem;
-  margin-bottom: .5rem;
 }
