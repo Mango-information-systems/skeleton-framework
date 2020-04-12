@@ -88,14 +88,11 @@ h6 {
 
 a {
   color: var(--link-color);
+  text-decoration: none;
 }
 
 a:hover {
   color: var(--link-color-hover);
-}
-
-a:visited {
-  text-decoration: none;
 }
 
 /* Colors */
