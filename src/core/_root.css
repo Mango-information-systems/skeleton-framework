@@ -4,18 +4,18 @@
   --column-width: calc(100% / var(--total-columns));
   --max-width: 1200px;
   --gutter: 1rem;
-
+  
   --font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   --background-color: #fff;
   --font-color: #222;
 
-  --link-color: #1EAEDB;
+  --link-color: #2a497f;
   --link-color-hover: #0FA0CE;
 
-  --text-color-primary: #1EAEDB;
+  --text-color-primary: #2a497f;
   --text-color-danger: #e74c3c;
-  --text-color-success: #2ecc71;
+  --text-color-success: #2a7f2c;
 
   --button-font-color: #555;
   --button-font-color-enter: #333;
@@ -34,30 +34,30 @@
   --primary-button-font-color-active: #FFF;
   --primary-button-font-color-disabled: #FFF;
 
-  --primary-button-background-color: #33C3F0;
-  --primary-button-background-color-enter: #1EAEDB;
+  --primary-button-background-color: #303e56;
+  --primary-button-background-color-enter: #2a497f;
   --primary-button-background-color-active: #157b9b;
-  --primary-button-background-color-disabled: #7CD9F8;
+  --primary-button-background-color-disabled: #596986;
 
-  --primary-button-border: 1px solid #33C3F0;
-  --primary-button-border-color-enter: #1EAEDB;
+  --primary-button-border: 1px solid #303e56;
+  --primary-button-border-color-enter: #2a497f;
   --primary-button-border-color-active: #157b9b;
-  --primary-button-border-color-disabled: #7CD9F8;
+  --primary-button-border-color-disabled: #596986;
 
   --success-button-font-color: #FFF;
   --success-button-font-color-enter: #FFF;
   --success-button-font-color-active: #FFF;
   --success-button-font-color-disabled: #FFF;
 
-  --success-button-background-color: #2ecc71;
-  --success-button-background-color-enter: #27ae60;
-  --success-button-background-color-active: #2ecc71;
-  --success-button-background-color-disabled: #82e3aa;
+  --success-button-background-color: #2a7f2c;
+  --success-button-background-color-enter: #199a2e;
+  --success-button-background-color-active: #2a7f2c;
+  --success-button-background-color-disabled: #68a369;
 
-  --success-button-border: 1px solid #2ecc71;
-  --success-button-border-color-enter: #27ae60;
-  --success-button-border-color-active: #2ecc71;
-  --success-button-border-color-disabled: #82e3aa;
+  --success-button-border: 1px solid #2a7f2c;
+  --success-button-border-color-enter: #199a2e;
+  --success-button-border-color-active: #2a7f2c;
+  --success-button-border-color-disabled: #68a369;
 
   --danger-button-font-color: #FFF;
   --danger-button-font-color-enter: #FFF;
@@ -77,9 +77,9 @@
   --form-background-color: #FFF;
   --form-font-color: #222;
   --form-border: 1px solid #D1D1D1;
-  --form-border-enter: 1px solid #33C3F0;
+  --form-border-enter: 1px solid #303e56;
   --form-border-enter-error: 1px solid #e74c3c;
-  --form-border-enter-success: 1px solid #2ecc71;
+  --form-border-enter-success: 1px solid #2a7f2c;
 
   --code-background: #F1F1F1;
   --code-border: 1px solid #E1E1E1;
@@ -89,12 +89,12 @@
   --alert-background-color: #FFF;
 
   --alert-primary-font-color: #FFF;
-  --alert-primary-border: 1px solid #33C3F0;
-  --alert-primary-background-color: #33C3F0;
+  --alert-primary-border: 1px solid #303e56;
+  --alert-primary-background-color: #303e56;
 
   --alert-success-font-color: #FFF;
-  --alert-success-border: 1px solid #2ecc71;
-  --alert-success-background-color: #2ecc71;
+  --alert-success-border: 1px solid #2a7f2c;
+  --alert-success-background-color: #2a7f2c;
 
   --alert-danger-font-color: #FFF;
   --alert-danger-border: 1px solid #e74c3c;
