@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 1/25/2020 */
+/*! skeleton-framework | 1.1.1 | MIT | 1/15/2020 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -28,7 +28,7 @@ html {
 
 body {
   background-color: #fff;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.6rem;
   font-weight: 400;
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
@@ -526,10 +526,10 @@ h6 {
 
 @media (min-width: 560px) {
   h1 {
-    font-size: 3.6rem;
+    font-size: 3.2rem;
   }
   h2 {
-    font-size: 3.0rem;
+    font-size: 2.8rem;
   }
   h3 {
     font-size: 2.4rem;
@@ -568,6 +568,16 @@ a:hover {
 
 .text-danger {
   color: #e74c3c
+}
+
+/* Other */
+
+.lead {
+  font-size: 120%;
+}
+
+.small {
+  font-size: 80%;
 }
 
 .button,
@@ -772,6 +782,17 @@ input[type="button"].button-danger:disabled {
   border-color: #ee8377;
 }
 
+.button.button-sm,
+button.button-sm,
+input[type="submit"].button-sm,
+input[type="reset"].button-sm,
+input[type="button"].button-sm {
+  height: auto;
+  padding: .1rem .5rem;
+  font-size: .8rem;
+  line-height: 1.2rem;
+}
+
 input[type="email"],
 input[type="number"],
 input[type="date"],
@@ -914,7 +935,6 @@ li {
   padding: 10px 25px;
   border-radius: 4px;
   box-shadow: 1px 1px 1px #E1E1E1;
-  min-height: 160px;
   margin-bottom: 1rem;
 }
 
@@ -1232,4 +1252,58 @@ hr {
   color: #FFF;
   background-color: #2a7f2c;
   transition: background-color 0.2s;
+}
+
+.container {
+	min-height: 100%;
+}
+
+section:first-child {
+	min-height: 30vh;
+}
+
+section {
+	padding: 3rem 10000px;
+	margin-left: -10000px;
+	margin-right: -10000px;
+}
+
+@media (min-width: 1200px) {
+  /* Larger than Desktop HD */
+    section {
+	  padding: 5rem 10000px;
+    }
+}
+
+/* sections background images */
+
+section:nth-child(odd) {
+	background-color: #eee;
+    background-image: url("/img/bg-pattern-2x.jpg");
+    background-repeat: repeat;
+    background-attachment: cover;
+    background-size: 75px 62px;
+}
+
+section:nth-child(even) {
+	background-color: #FCFCFC;
+}
+
+@media (min-width: 560px) {
+	/* Larger than phablet (also point when grid becomes active) */
+	section:nth-child(odd) {
+		background-attachment: fixed;
+	}
+}
+
+/* fix jumpy background image on IE... :/ */
+
+@media all and (-ms-high-contrast:none)
+{
+	section:nth-child(odd) {
+		background-attachment: scroll;
+	}
+	*::-ms-backdrop, section:nth-child(odd) {
+		background-attachment: scroll;
+	}
 }
