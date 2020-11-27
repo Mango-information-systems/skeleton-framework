@@ -1,55 +1,63 @@
-.container {
-	min-height: 100%;
-}
+/*****
+* Full width sections
+*
+*****/
 
-section:first-child {
-	min-height: 30vh;
-}
-
+/*  Full width section   */
 section {
-	padding: 3rem 10000px;
-	margin-left: -10000px;
-	margin-right: -10000px;
+	width: 100%;
+	min-height: 30%;
+	padding: 4rem 1rem;
+	display: table;
+	margin: 0;
 }
 
+
+@media (min-width: 720px) {
+  /* Larger than tablet */
+	section {
+		padding: 4rem 10%;
+	}
+}
 
 @media (min-width: 1200px) {
   /* Larger than Desktop HD */
-    section {
-	  padding: 5rem 10000px;
-    }
+	section {
+		padding: 4rem 13%;
+	}
 }
 
+/* Alternate section color scheme  */
 
-/* sections background images */
-
-section:nth-child(odd) {
-	background-color: #eee;
-    background-image: url("/img/bg-pattern-2x.jpg");
-    background-repeat: repeat;
-    background-attachment: cover;
-    background-size: 75px 62px;
-}
 section:nth-child(even) {
-	background-color: #FCFCFC;
+	background-color: var(--background-color-alternate);
 }
- 
+
+
+/* Section background images  */
+
+.bg-section {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
 
 @media (min-width: 560px) {
-	/* Larger than phablet (also point when grid becomes active) */
-	section:nth-child(odd) {
+  /* Larger than phablet (also point when grid becomes active) */
+	.bg-section {
 		background-attachment: fixed;
 	}
 }
 
-/* fix jumpy background image on IE... :/ */
 
+/* fix jumpy background image on IE... :/ */
 @media all and (-ms-high-contrast:none)
 {
-	section:nth-child(odd) {
+	.bg-section {
 		background-attachment: scroll;
 	}
-	*::-ms-backdrop, section:nth-child(odd) {
+	*::-ms-backdrop, .bg-section {
 		background-attachment: scroll;
 	}
 }

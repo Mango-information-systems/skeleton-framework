@@ -26,3 +26,11 @@
   -o-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
+
+.badge.tag {
+  margin: .3rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 400;
+
+}
