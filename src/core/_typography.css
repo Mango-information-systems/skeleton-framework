@@ -43,9 +43,8 @@ h3 {
 }
 
 h4 {
-  font-size: 1.8rem;
-  line-height: 1.35;
-  letter-spacing: -0.08rem;
+  font-size: 1.6rem;
+  line-height: 1.2;
 }
 
 h5 {
@@ -74,7 +73,7 @@ h6 {
     font-size: 2.4rem;
   }
   h4 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   h5 {
     font-size: 1.5rem;
