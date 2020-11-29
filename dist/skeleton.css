@@ -1323,23 +1323,121 @@ section:nth-child(even) {
 	}
 }
 
-text {
-	font-size: 1.2rem;
+#topicsInput {
+  position: relative;
+  width: 100%;
+  height: 1 rem;
+  border: 1px solid #ccc;
+  padding: 4px;
+ }
+
+.taggle_list {
+  padding: 0;
+  margin: 0;
+  line-height: 2.5;
+  width: 100%;
 }
 
-.chartRow .bar {
-	fill: #eaeaea;
-	stroke: none;
+input[type="text"].taggle_input {
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
-.chartRow .label{
-	fill: #777777;
-	font-size: 1em;
-	font-weight: bold;
-	text-anchor: end;
+.taggle_list li {
+  display: inline;
+  vertical-align: baseline;
+  white-space: nowrap;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
 }
 
-.chartRow .category {
-	fill: #666666;
-	font-size: 1em
+.taggle_list li {
+  display: inline;
+  vertical-align: baseline;
+  white-space: nowrap;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.taggle_list .taggle {
+  margin-right: 8px;
+  background: #E2E1DF;
+  padding: 5px 15px;
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
+  transition: all .3s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.taggle_list .taggle_hot {
+  background: #cac8c4;
+}
+
+.taggle_list .taggle .close {
+  font-size: 1.1rem;
+  position: absolute;
+  top: 10px;
+  right: 3px;
+  height: 1rem;
+  text-decoration: none;
+  padding: 0;
+  line-height: 0.5;
+  color: #ccc;
+  color: rgba(0, 0, 0, 0.2);
+  padding-bottom: 4px;
+  display: inline-block;
+  opacity: 0;
+  pointer-events: none;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.taggle_list .taggle:hover {
+  padding-left: 10px;
+  padding-right: 20px;
+  background: #ccc;
+  transition: all .3s;
+}
+
+.taggle_list .taggle:hover > .close {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.taggle_list .taggle .close:hover {
+  color: #990033;
+}
+
+.taggle_placeholder {
+  position: absolute;
+  color: #CCC;
+  top: 24px;
+  left: 16px;
+  transition: opacity, .25s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.taggle_input {
+  padding: 8px;
+  padding-left: 0;
+  margin-top: -5px;
+  background: none;
+  max-width: 100%;
+}
+
+.taggle_sizer {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: -500px;
+  z-index: -1;
+  visibility: hidden;
 }
