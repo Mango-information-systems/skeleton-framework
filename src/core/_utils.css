@@ -100,3 +100,9 @@
   max-width: 100%;
   height: auto;
 }
+
+.u-img-thumbnail {
+  padding: .25rem;
+  border: 1px solid var(--card-border);
+  border-radius: var(--border-radius);
+}
