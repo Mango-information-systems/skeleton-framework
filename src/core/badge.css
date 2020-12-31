@@ -34,3 +34,7 @@
   font-weight: 400;
 
 }
+
+.badge.small {
+  font-size: .75rem;
+}
