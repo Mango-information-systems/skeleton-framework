@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 3/30/2020 */
+/*! skeleton-framework | 1.1.1 | MIT | 4/31/2020 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -470,20 +470,21 @@ h5,
 h6,
 thead th {
   font-family: "Segoe UI", "Helvetica Neue", "Helvetica", "Lucida Grande", Arial, "Ubuntu", "Cantarell", "Fira Sans", sans-serif;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
   font-weight: 300;
 }
 
 h1,
 h2,
 h3 {
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 h4,
 h5,
 h6 {
-  margin-top: 1.5rem;
+  margin-top: .5rem;
 }
 
 h1 {
@@ -1183,6 +1184,12 @@ p {
   height: auto;
 }
 
+.u-img-thumbnail {
+  padding: .25rem;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+}
+
 /* Misc */
 
 hr {
@@ -1257,6 +1264,10 @@ hr {
   line-height: 2rem;
   font-weight: 400;
 
+}
+
+.badge.small {
+  font-size: .75rem;
 }
 
 /*****
