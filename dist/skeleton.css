@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 4/31/2020 */
+/*! skeleton-framework | 1.1.1 | MIT | 1/4/2021 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1188,6 +1188,7 @@ p {
   padding: .25rem;
   border: 1px solid #E1E1E1;
   border-radius: 4px;
+  box-shadow: 3px 3px 5px #E1E1E1;
 }
 
 /* Misc */
@@ -1278,58 +1279,80 @@ hr {
 /*  Full width section   */
 
 section {
-	width: 100%;
-	min-height: 30%;
-	padding: 4rem 1rem;
-	display: table;
-	margin: 0;
+  width: 100%;
+  min-height: 30%;
+  padding: 4rem 1rem;
+  display: table;
+  margin: 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 @media (min-width: 720px) {
   /* Larger than tablet */
-	section {
-		padding: 4rem 10%;
-	}
+  section {
+    padding: 4rem 10%;
+  }
 }
 
 @media (min-width: 1200px) {
   /* Larger than Desktop HD */
-	section {
-		padding: 4rem 13%;
-	}
+  section {
+    padding: 4rem 13%;
+  }
 }
 
 /* Alternate section color scheme  */
 
-section:nth-child(even) {
-	background-color: #eee;
+section:nth-child(odd) {
+  background-color: #f8f8f8;
+}
+
+/* Alternate section color scheme  */
+
+section:nth-child(odd) {
+  background-color: #f8f8f8;
 }
 
 /* Section background images  */
 
 .bg-section {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+  background-color: #303e56;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 @media (min-width: 560px) {
   /* Larger than phablet (also point when grid becomes active) */
-	.bg-section {
-		background-attachment: fixed;
-	}
+  .bg-section {
+    background-attachment: fixed;
+  }
 }
 
 /* fix jumpy background image on IE... :/ */
 
 @media all and (-ms-high-contrast:none)
 {
-	.bg-section {
-		background-attachment: scroll;
-	}
-	*::-ms-backdrop, .bg-section {
-		background-attachment: scroll;
-	}
+  .bg-section {
+    background-attachment: scroll;
+  }
+  *::-ms-backdrop, .bg-section {
+    background-attachment: scroll;
+  }
+}
+
+/* Section masthead  */
+
+section.masthead h1,
+section.masthead h2,
+section.masthead p {
+  color: white;
+  text-shadow: 1px 1px 2px #002;
+}
+
+section.masthead a.button {
+  background-color: #002;
 }
 
 #topicsInput {
