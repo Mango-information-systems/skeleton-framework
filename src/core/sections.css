@@ -5,59 +5,81 @@
 
 /*  Full width section   */
 section {
-	width: 100%;
-	min-height: 30%;
-	padding: 4rem 1rem;
-	display: table;
-	margin: 0;
+  width: 100%;
+  min-height: 30%;
+  padding: 4rem 1rem;
+  display: table;
+  margin: 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
-
 
 @media (min-width: 720px) {
   /* Larger than tablet */
-	section {
-		padding: 4rem 10%;
-	}
+  section {
+    padding: 4rem 10%;
+  }
 }
 
 @media (min-width: 1200px) {
   /* Larger than Desktop HD */
-	section {
-		padding: 4rem 13%;
-	}
+  section {
+    padding: 4rem 13%;
+  }
 }
 
 /* Alternate section color scheme  */
 
-section:nth-child(even) {
-	background-color: var(--background-color-alternate);
+section:nth-child(odd) {
+  background-color: var(--background-color-alternate);
+}
+
+
+/* Alternate section color scheme  */
+
+section:nth-child(odd) {
+  background-color: var(--background-color-alternate);
 }
 
 
 /* Section background images  */
 
 .bg-section {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+  background-color: var(--primary-button-background-color);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 
 @media (min-width: 560px) {
   /* Larger than phablet (also point when grid becomes active) */
-	.bg-section {
-		background-attachment: fixed;
-	}
+  .bg-section {
+    background-attachment: fixed;
+  }
 }
 
 
 /* fix jumpy background image on IE... :/ */
 @media all and (-ms-high-contrast:none)
 {
-	.bg-section {
-		background-attachment: scroll;
-	}
-	*::-ms-backdrop, .bg-section {
-		background-attachment: scroll;
-	}
+  .bg-section {
+    background-attachment: scroll;
+  }
+  *::-ms-backdrop, .bg-section {
+    background-attachment: scroll;
+  }
+}
+
+/* Section masthead  */
+
+section.masthead h1,
+section.masthead h2,
+section.masthead p {
+  color: white;
+  text-shadow: 1px 1px 2px #002;
+}
+
+section.masthead a.button {
+  background-color: #002;
 }
