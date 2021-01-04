@@ -105,4 +105,5 @@
   padding: .25rem;
   border: 1px solid var(--card-border);
   border-radius: var(--border-radius);
+  box-shadow: 3px 3px 5px #E1E1E1;
 }
