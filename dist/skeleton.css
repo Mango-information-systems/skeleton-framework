@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 1/4/2021 */
+/*! skeleton-framework | 1.1.1 | MIT | 3/6/2021 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -524,7 +524,7 @@ h6 {
 
 @media (min-width: 560px) {
   h1 {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
   }
   h2 {
     font-size: 1.8rem;
@@ -789,6 +789,17 @@ input[type="button"].button-sm {
   padding: .1rem .5rem;
   font-size: .8rem;
   line-height: 1.2rem;
+}
+
+.button.button-lg,
+button.button-lg,
+input[type="submit"].button-lg,
+input[type="reset"].button-lg,
+input[type="button"].button-lg {
+  height: auto;
+  padding: .8rem 2rem;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
 }
 
 input[type="email"],
@@ -1284,8 +1295,6 @@ section {
   padding: 4rem 1rem;
   display: table;
   margin: 0;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
 }
 
 @media (min-width: 720px) {
@@ -1306,12 +1315,8 @@ section {
 
 section:nth-child(odd) {
   background-color: #f8f8f8;
-}
-
-/* Alternate section color scheme  */
-
-section:nth-child(odd) {
-  background-color: #f8f8f8;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 /* Section background images  */
@@ -1344,15 +1349,28 @@ section:nth-child(odd) {
 
 /* Section masthead  */
 
-section.masthead h1,
-section.masthead h2,
-section.masthead p {
+.masthead h1,
+.masthead h2,
+.masthead p,
+.masthead a {
   color: white;
-  text-shadow: 1px 1px 2px #002;
+  text-shadow: 1px 1px 2px #006;
 }
 
-section.masthead a.button {
-  background-color: #002;
+.masthead a.button {
+  color: white;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
+
+.masthead a.button-primary {
+  color: #006;
+  background-color: white;
+  text-shadow: none;
+}
+
+.masthead a.button-primary:hover {
+  text-shadow: 1px 1px 2px #006;
 }
 
 #topicsInput {
