@@ -227,3 +227,14 @@ input[type="button"].button-sm {
   font-size: .8rem;
   line-height: 1.2rem;
 }
+
+.button.button-lg,
+button.button-lg,
+input[type="submit"].button-lg,
+input[type="reset"].button-lg,
+input[type="button"].button-lg {
+  height: auto;
+  padding: .8rem 2rem;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
