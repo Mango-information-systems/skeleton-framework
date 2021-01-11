@@ -9,6 +9,7 @@
   letter-spacing: 0.1rem;
   white-space: nowrap;
   background-color: var(--badge-background-color);
+  text-shadow: none;
   border-radius: var(--border-radius);
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;

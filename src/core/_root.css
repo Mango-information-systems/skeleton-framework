@@ -10,7 +10,7 @@
   --code-font-family: "SFMono-Regular", "DejaVu Sans Mono", "Liberation Mono", "Menlo", "Consolas", "Courier new", Courier, monospace;
 
   --background-color: #fff;
-  --background-color-alternate: #f8f8f8;
+  --background-color-alternate: #303e56;
   --font-color: #222;
 
   --link-color: #2a497f;
@@ -115,4 +115,7 @@
   --card-border: #E1E1E1;
   --card-shadow: #E1E1E1;
   --card-anchor-color: #757575;
+  
+  --card-border-alternate: #080840;
+  
 }

@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 3/6/2021 */
+/*! skeleton-framework | 1.1.1 | MIT | 1/11/2021 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1196,10 +1196,9 @@ p {
 }
 
 .u-img-thumbnail {
-  padding: .25rem;
-  border: 1px solid #E1E1E1;
+  border: 2px solid #080840;
   border-radius: 4px;
-  box-shadow: 3px 3px 5px #E1E1E1;
+  box-shadow: 2px 2px 5px #080840;
 }
 
 /* Misc */
@@ -1260,6 +1259,7 @@ hr {
   letter-spacing: 0.1rem;
   white-space: nowrap;
   background-color: #eaeaea;
+  text-shadow: none;
   border-radius: 4px;
   transition: background-color 0.2s;
 }
@@ -1314,19 +1314,16 @@ section {
 /* Alternate section color scheme  */
 
 section:nth-child(odd) {
-  background-color: #f8f8f8;
+  background-image: url(/img/background-alt.jpg);
+  background-color: #303e56;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }
 
 /* Section background images  */
-
-.bg-section {
-  background-color: #303e56;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top right;
-}
 
 @media (min-width: 560px) {
   /* Larger than phablet (also point when grid becomes active) */
@@ -1349,28 +1346,29 @@ section:nth-child(odd) {
 
 /* Section masthead  */
 
-.masthead h1,
-.masthead h2,
-.masthead p,
-.masthead a {
+section:nth-child(odd) h1,
+section:nth-child(odd) h2,
+section:nth-child(odd) h3,
+section:nth-child(odd) p,
+section:nth-child(odd) a {
   color: white;
-  text-shadow: 1px 1px 2px #006;
+  text-shadow: 1px 1px 2px #080840;
 }
 
-.masthead a.button {
+section:nth-child(odd) a.button {
   color: white;
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
 }
 
-.masthead a.button-primary {
-  color: #006;
+section:nth-child(odd) a.button-primary {
+  color: #080840;
   background-color: white;
   text-shadow: none;
 }
 
-.masthead a.button-primary:hover {
-  text-shadow: 1px 1px 2px #006;
+section:nth-child(odd) a.button-primary:hover {
+  text-shadow: 1px 1px 2px #080840;
 }
 
 #topicsInput {

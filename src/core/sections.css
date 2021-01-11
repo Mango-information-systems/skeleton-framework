@@ -29,19 +29,16 @@ section {
 /* Alternate section color scheme  */
 
 section:nth-child(odd) {
+  background-image: url(/img/background-alt.jpg);
   background-color: var(--background-color-alternate);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }
 
 /* Section background images  */
-
-.bg-section {
-  background-color: var(--primary-button-background-color);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top right;
-}
 
 
 @media (min-width: 560px) {
@@ -65,25 +62,26 @@ section:nth-child(odd) {
 
 /* Section masthead  */
 
-.masthead h1,
-.masthead h2,
-.masthead p,
-.masthead a {
+section:nth-child(odd) h1,
+section:nth-child(odd) h2,
+section:nth-child(odd) h3,
+section:nth-child(odd) p,
+section:nth-child(odd) a {
   color: white;
-  text-shadow: 1px 1px 2px #006;
+  text-shadow: 1px 1px 2px var(--card-border-alternate);
 }
 
-.masthead a.button {
+section:nth-child(odd) a.button {
   color: white;
   backdrop-filter: blur(4px);
 }
 
-.masthead a.button-primary {
-  color: #006;
+section:nth-child(odd) a.button-primary {
+  color: var(--card-border-alternate);
   background-color: white;
   text-shadow: none;
 }
 
-.masthead a.button-primary:hover {
-  text-shadow: 1px 1px 2px #006;
+section:nth-child(odd) a.button-primary:hover {
+  text-shadow: 1px 1px 2px var(--card-border-alternate);
 }
