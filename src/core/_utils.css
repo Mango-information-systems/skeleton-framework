@@ -102,7 +102,7 @@
 }
 
 .u-img-thumbnail {
-  border: 2px solid var(--card-border-alternate);
+  border: 1px solid var(--card-border-alternate);
   border-radius: var(--border-radius);
-  box-shadow: 2px 2px 5px var(--card-border-alternate);
+  box-shadow: 2px 2px 3px var(--card-border-alternate);
 }
