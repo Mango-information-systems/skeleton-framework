@@ -60,7 +60,7 @@ section:nth-child(odd) {
   }
 }
 
-/* Section masthead  */
+/* Section alternate  */
 
 section:nth-child(odd) h1,
 section:nth-child(odd) h2,
@@ -84,4 +84,21 @@ section:nth-child(odd) a.button-primary {
 
 section:nth-child(odd) a.button-primary:hover {
   text-shadow: 1px 1px 2px var(--card-border-alternate);
+}
+
+/* Section alternate  */
+section.masthead {
+  background-image: url(/img/background-sheep.jpg)
+}
+
+@media
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192 dpi),
+  only screen and (min-resolution: 2dppx),
+  only screen and (min-width: 960px) {
+
+  section.masthead {
+    background-image: url(/img/background-sheep@2x.jpg)
+  }
+
 }

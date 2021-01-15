@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 1/11/2021 */
+/*! skeleton-framework | 1.1.1 | MIT | 5/15/2021 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -1196,9 +1196,9 @@ p {
 }
 
 .u-img-thumbnail {
-  border: 2px solid #080840;
+  border: 1px solid #080840;
   border-radius: 4px;
-  box-shadow: 2px 2px 5px #080840;
+  box-shadow: 2px 2px 3px #080840;
 }
 
 /* Misc */
@@ -1344,7 +1344,7 @@ section:nth-child(odd) {
   }
 }
 
-/* Section masthead  */
+/* Section alternate  */
 
 section:nth-child(odd) h1,
 section:nth-child(odd) h2,
@@ -1369,6 +1369,21 @@ section:nth-child(odd) a.button-primary {
 
 section:nth-child(odd) a.button-primary:hover {
   text-shadow: 1px 1px 2px #080840;
+}
+
+/* Section alternate  */
+
+section.masthead {
+  background-image: url(/img/background-sheep.jpg)
+}
+
+@media
+  only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192 dpi), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx), only screen and (min-width: 960px) {
+
+  section.masthead {
+    background-image: url(/img/background-sheep@2x.jpg)
+  }
+
 }
 
 #topicsInput {
