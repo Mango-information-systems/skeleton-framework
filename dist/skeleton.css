@@ -1,4 +1,4 @@
-/*! skeleton-framework | 1.1.1 | MIT | 5/15/2021 */
+/*! skeleton-framework | 1.1.1 | MIT | 0/17/2021 */
 /* Table of contents
 - Base Styles
 - Grid
@@ -566,6 +566,10 @@ a:hover {
 
 .text-danger {
   color: #e74c3c
+}
+
+.text-muted {
+  color: #888;
 }
 
 /* Other */
